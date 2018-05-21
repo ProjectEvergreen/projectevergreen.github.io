@@ -4,9 +4,26 @@
   text-align: center;
   margin-bottom: 15px;
 
-  & .welcome-text-heading {
+  & .section h3 {
+    margin: 0;
     text-decoration: underline;
-    color: red;
+  };
+  
+  & .section {
+    padding: 10px 10%;
+  }
+
+  & .light {
+    background-color: #efefef;
+  }
+
+  & .dark {
+    background-color: green;
+  }
+  
+  & li {
+    padding: 5px 0;
+    list-style-position: inside;
   }
   
   & .welcome-text-body {

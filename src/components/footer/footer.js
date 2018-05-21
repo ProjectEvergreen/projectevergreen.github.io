@@ -16,10 +16,10 @@ class Footer extends HTMLElement {
       </style>
       
       <footer>
-        <a href="https://www.thegreenhouseio.io">The Greenhouse.io</a>
+        <a href="https://project-evergreen.thegreenhouse.io">&copy; Project Evergreen 2018</a>
       </footer>
     `;
   }
 }
 
-customElements.define('tgh-footer', Footer);
+customElements.define('pe-footer', Footer);

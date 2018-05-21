@@ -23,15 +23,15 @@ class App extends HTMLElement {
       <div id="container">
 
         <section>
-          <tgh-header></tgh-header>
+          <pe-header></pe-header>
         </section>
         
         <section>
-          <tgh-home></tgh-home>
+          <pe-home></pe-home>
         </section>
 
         <section>
-          <tgh-footer></tgh-footer>
+          <pe-footer></pe-footer>
         </section>
 
       </div>
@@ -39,4 +39,4 @@ class App extends HTMLElement {
   }
 }
 
-customElements.define('tgh-app', App);
+customElements.define('pe-app', App);

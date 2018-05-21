@@ -1,5 +1,10 @@
+* {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2em;
+}
+
 #container {
-  background-color:lightblue;
+  background-color: #efefef;
   display: flex;
   justify-content: center;
   flex-direction: column;
