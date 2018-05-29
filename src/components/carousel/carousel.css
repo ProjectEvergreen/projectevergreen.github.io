@@ -1,0 +1,10 @@
+:host {
+
+  & div.slot {
+    display: none;
+  }
+
+  & div.active-slot {
+    display: block;
+  }
+}
