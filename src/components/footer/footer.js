@@ -1,15 +1,9 @@
-import { html, render } from 'lit-html';
+import { LitElement, html } from 'lit-html-element';
 import css from './footer.css';
 
-class Footer extends HTMLElement {
-  constructor() {
-    super();
-    
-    this.root = this.attachShadow({ mode: 'closed' });
-    render(this.template(), this.root);
-  }
+class Footer extends LitElement {
 
-  template() {
+  render() {
     return html`
       <style>
         ${css}
@@ -25,6 +19,7 @@ class Footer extends HTMLElement {
       </footer>
     `;
   }
+  
 }
 
 customElements.define('pe-footer', Footer);

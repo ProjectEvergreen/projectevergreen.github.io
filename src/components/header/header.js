@@ -1,15 +1,9 @@
-import { html, render } from 'lit-html';
+import { LitElement, html } from 'lit-html-element';
 import css from './header.css';
 
-class Header extends HTMLElement {
-  constructor() {
-    super();
-    
-    this.root = this.attachShadow({ mode: 'closed' });
-    render(this.template(), this.root);
-  }
+class Header extends LitElement {
 
-  template() {
+  render() {
     return html`
       <style>
         ${css}
