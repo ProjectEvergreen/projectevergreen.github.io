@@ -5,12 +5,16 @@ class Carousel extends LitElement {
   constructor() {
     super();
     
-    this._content = [{ template: '' }];
+    this.slots = 0;
     this.activeIndex = 0;
   }
 
   static get properties() {
     return {
+      activeIndex: {
+        type: Number,
+        attrName: 'activeIndex'
+      },
       slots: {
         type: Number,
         attrName: 'slots'
@@ -30,8 +34,14 @@ class Carousel extends LitElement {
 
   generateCarouselNavigation() {
     return new Array(this.slots).fill(null).map((item, index) => {
-      return html`<li>Nav Item ${index + 1}</li>`;
+      return html`
+        <li onclick=${() => this.setActiveIndex(index) }>Nav Item ${index + 1}</li>
+      `;
     });
+  }
+
+  setActiveIndex(index) {
+    this.activeIndex = index;
   }
 
   render() {

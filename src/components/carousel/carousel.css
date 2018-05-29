@@ -1,5 +1,9 @@
 :host {
 
+  & li {
+    cursor: pointer;
+  }
+  
   & div.slot {
     display: none;
   }
