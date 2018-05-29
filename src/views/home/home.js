@@ -11,7 +11,7 @@ class Home extends LitElement {
   }
 
   generateSlotTemplate(item, index) {
-    return html`<div slot="slide${index + 1}">${item.template}</div>`;
+    return html`<div slot="slide${index + 1}"><h3>${item.title}</h3> ${item.template}</div>`;
   }
 
   render() {
@@ -41,7 +41,7 @@ class Home extends LitElement {
         <div class="content-wrapper">
           <div>
 
-          <pe-carousel slots$=${this.content.length + 1}>
+          <pe-carousel slots$=${this.content.length}>
             ${ this.content.map(this.generateSlotTemplate) }
           </pe-carousel>
 
