@@ -4,19 +4,24 @@ import css from './home.css';
 
 const content = [{
   title: 'Reduce',
-  template: html`<p>The goal of <b>Project Evergreen</b> is to provide a resource to web application developers who are looking to build dynamic, performant, and 
-    <b><i>evergreen</i></b> (naturally) 
-    web applications.  The project's motivations are rooted in the fundamental belief that when applications are written with standards complicane in mind, the experience for 
-    users, developers, and businesses can be maximized for all parties equally.</p>`
-}, {
-  title: 'Reuse',
   template: html`<p>By leveraging the web platform itself, code can be more portable, maintainable, and compatible.  Reducing external dependencies
-    and being more "vanilla" can also provide passive improvements to performance and security.  Our philosophy can be simplified as such: <i>polyfills over frameworks, but
+    and being more "vanilla" can also provide improvements to performance and security.  Our philosophy can be simplified as such: <i>polyfills over frameworks, but
     don't feel pressured to reinvent the wheel if you don't need to.</i></p>
 
     <!-- CTA -->
     <p>Read more about what you can do in our <a href="#">Wiki docs</a> or look at our <a href="">GitHub repos</a> for projects you 
     can read, tinker with, and use yourself!</p> `
+}, {
+  title: 'Reuse',
+  template: html`<p>Component based development has become a widely adopted and pragmatic option for approaching UI development and lends itself nicely to
+    modern web application development.  Reuse as a principal allows to write our own Web Components that look a lot like components you may 
+    already be used to seeing and writing.</p>
+
+    <!-- Code snippet -->
+
+    <!-- CTA -->
+    <p>Read more about what you can do in our <a href="#">Wiki docs</a> or look at our <a href="">GitHub repos</a> for projects you 
+    can read, tinker with, and use yourself!</p>`
 }, {
   title: 'Recycle',
   template: html`It should be clear, the JavaScript community and ecosystem is amazing and inspiring! There are so many wonderful tools and options out there, and that's what
