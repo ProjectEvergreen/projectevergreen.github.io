@@ -1,0 +1,39 @@
+:host {
+  display: block;
+  border: #1d337a solid 3px;
+  border-radius: 10px;
+  padding: 20px;
+  min-height: 475px;
+
+  & ul {
+    padding: 0;
+  }
+
+  & li {
+    cursor: pointer;
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    color: #020202;
+    font-size: 1.5em;
+  }
+
+  & li.active-slot {
+    color: #168c37;
+  }
+
+  & li:hover {
+    color: #168c37;
+    font-weight: bold;
+    transition: all 250ms ease;
+  }
+  
+  & div.slot {
+    display: none;
+  }
+
+  & div.active-slot {
+    display: block;
+    transition: all 3s ease;
+  }
+}

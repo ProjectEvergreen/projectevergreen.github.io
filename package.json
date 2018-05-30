@@ -1,7 +1,7 @@
 {
-  "name": "project-evergreen",
+  "name": "website",
   "version": "0.1.0",
-  "description": "A frontend repository designed for lean, performant, and sustainable web applications.",
+  "description": "Website repository for Project Greenhouse.",
   "main": "./src/index.js",
   "repository": "git@github.com:project-evergreen/website.git",
   "author": "Owen Buckley <owen@thegreenhouse.io>",
@@ -10,10 +10,10 @@
     "build": "rimraf ./build && eslint *.js && webpack --config ./webpack.config.prod.js",
     "develop": "webpack-dev-server --config ./webpack.config.develop.js --open",
     "release": "node release.js",
-    "serve": "yarn run build && cd build && http-server"
+    "serve": "yarn run build && cd build && http-server -o"
   },
   "dependencies": {
-    "lit-html": "^0.9.0"
+    "lit-html-element": "^0.9.1"
   },
   "devDependencies": {
     "aws-sdk": "^2.243.1",
@@ -25,6 +25,7 @@
     "cssnano": "^3.10.0",
     "eslint": "^4.19.1",
     "eslint-loader": "^2.0.0",
+    "favicons-webpack-plugin": "^0.0.9",
     "file-loader": "^1.1.6",
     "html-critical-webpack-plugin": "^1.1.0",
     "html-webpack-plugin": "^3.2.0",

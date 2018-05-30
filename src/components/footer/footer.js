@@ -1,25 +1,24 @@
-import { html, render } from 'lit-html';
+import { LitElement, html } from 'lit-html-element';
+import '../social-links-bar/social-links-bar';
 import css from './footer.css';
 
-class Footer extends HTMLElement {
-  constructor() {
-    super();
-    
-    this.root = this.attachShadow({ mode: 'closed' });
-    render(this.template(), this.root);
-  }
+class Footer extends LitElement {
 
-  template() {
+  render() {
     return html`
       <style>
         ${css}
       </style>
       
-      <footer>
+      <footer>     
+
+        <pe-social-links-bar></pe-social-links-bar>
         <a href="https://project-evergreen.thegreenhouse.io">&copy; Project Evergreen 2018</a>
+        
       </footer>
     `;
   }
+  
 }
 
 customElements.define('pe-footer', Footer);

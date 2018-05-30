@@ -2,31 +2,37 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-bottom: 15px;
+  margin: 0 auto;
 
-  & .section h3 {
+  & p {
     margin: 0;
-    text-decoration: underline;
-  };
-  
-  & .section {
-    padding: 10px 10%;
   }
 
-  & .light {
-    background-color: #efefef;
+  & .content-banner {
+    margin: 10px 0;
+    padding: 10px 20%;
+    color: #efefef;
+    background-color: #1d337a;
   }
 
-  & .dark {
-    background-color: green;
+  & .content-body{
+    padding: 10px 0 0;
+    margin: 0 auto;
+    width: 60%;
   }
   
-  & li {
-    padding: 5px 0;
-    list-style-position: inside;
+  & .content-footer {
+    width: 60%;
+    margin: 20px auto;
+    padding: 10px 0 0;
   }
-  
-  & .welcome-text-body {
-    color: green;
+
+  & img.screenshot {
+    display: inline-block;
+    width: 100%;
+  }
+
+  & h4 {
+    margin: 0;
   }
 }

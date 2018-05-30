@@ -1,15 +1,10 @@
-import { html, render } from 'lit-html';
+import { LitElement, html } from 'lit-html-element';
+import '../social-links-bar/social-links-bar';
 import css from './header.css';
 
-class Header extends HTMLElement {
-  constructor() {
-    super();
-    
-    this.root = this.attachShadow({ mode: 'closed' });
-    render(this.template(), this.root);
-  }
+class Header extends LitElement {
 
-  template() {
+  render() {
     return html`
       <style>
         ${css}
@@ -17,10 +12,10 @@ class Header extends HTMLElement {
       
       <header>        
 
-        <h2 class="header-text">Project Evergreen</h2>
-
-        <a href="https://github.com/ProjectEvergreen" target="_blank" rel="noopener">github</a> |
-        <a href="https://twitter.com/PrjEvergreen" target="_blank" rel="noopener">twitter</a> 
+        <h2 class="header-text">Project Evergreen 
+          <a href="https://github.com/ProjectEvergreen/project-evergreen/milestone/1" target="_blank" rel="noopener">(alpha)</a>
+        </h2>
+        <pe-social-links-bar></pe-social-links-bar>
     
       </header>
     `;
