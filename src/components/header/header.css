@@ -6,7 +6,7 @@
   cursor: pointer;
 
   & .header-text, & a {
-    margin: 0 auto;
+    margin: 0 auto 10px;
     color: #168c37;
     text-decoration: underline;
   }
