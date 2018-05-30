@@ -15,10 +15,17 @@
     display: inline-block;
     padding: 10px;
     color: #020202;
+    font-size: 1.5em;
   }
 
   & li.active-slot {
     color: #168c37;
+  }
+
+  & li:hover {
+    color: #168c37;
+    font-weight: bold;
+    transition: all 250ms ease;
   }
   
   & div.slot {
@@ -27,5 +34,7 @@
 
   & div.active-slot {
     display: block;
+    transition: all 3s ease;
   }
+
 }

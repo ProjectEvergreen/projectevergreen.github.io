@@ -99,7 +99,7 @@ class Home extends LitElement {
         <div class="content-footer">
           <p>Read more about what you can do in our <a href="https://github.com/ProjectEvergreen/project-evergreen/wiki" target="_blank" rel="noopener">wiki docs</a>,
           look at our <a href="https://github.com/ProjectEvergreen" target="_blank" rel="noopener">roadmap</a> for what we're working on, and checkout out 
-          our <a href="https://github.com/ProjectEvergreen" target="_blank" rel="noopener">GitHub repos</a> which you can read, tinker with, and use yourself!</p>
+          our <a href="https://github.com/ProjectEvergreen" target="_blank" rel="noopener">GitHub repos</a> which you can read, tinker with, and try out yourself!</p>
         </div>
       <div>
     `;
