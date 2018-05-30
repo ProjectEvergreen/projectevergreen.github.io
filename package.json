@@ -1,6 +1,6 @@
 {
   "name": "website",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Website repository for Project Greenhouse.",
   "main": "./src/index.js",
   "repository": "git@github.com:project-evergreen/website.git",
