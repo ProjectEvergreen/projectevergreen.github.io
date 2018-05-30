@@ -4,19 +4,17 @@ const content = {
   home: [{
     title: 'Reduce',
     template: html`
-      <p>By leveraging the web platform itself, code can be more portable, maintainable, and compatible.  Reducing external dependencies
-      and being more "vanilla" can also provide improvements to performance and security.</p>
+      <p>By leveraging the web platform itself, code can be more consistent, portable, and maintainable.  Reducing external dependencies
+      and being more "vanilla" can also provide passive improvements to performance and security.</p>
       <br/>
-      <p>Our philosophy can be simplified as such: <i>Polyfills over frameworks, but don't reinvent the wheel if you don't need to.</i></p>
+      <p>Our philosophy to reduce overhead can be embodied by the mindset of: <i>Polyfills over frameworks, but don't re-invent the wheel if you don't need to.</i></p>
     `
   }, {
     title: 'Reuse',
     template: html`
-      <p>Component based development has become a widely adopted and pragmatic option for approaching UI development and lends itself nicely to
-      modern web application development.</p>
+      <p>Component based development has become a widely adopted and pragmatic approach to modern UI web application development.</p>
       <br/>
-      <p>Reuse as a principal allows to write our own Web Components that look a lot like components you may 
-      already be used to seeing and writing.</p>
+      <p>Reuse as a principal allows to write our own "Web" components that look a lot like components you may already be used to seeing and writing.</p>
   
       <!-- Code snippet -->
     `

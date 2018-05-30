@@ -1,4 +1,5 @@
 import { LitElement, html } from 'lit-html-element';
+import '../social-links-bar/social-links-bar';
 import css from './footer.css';
 
 class Footer extends LitElement {
@@ -10,12 +11,10 @@ class Footer extends LitElement {
       </style>
       
       <footer>     
-        <a href="https://github.com/ProjectEvergreen" target="_blank" rel="noopener">github</a> |
-        <a href="https://twitter.com/PrjEvergreen" target="_blank" rel="noopener">twitter</a> 
 
-        <br/>
-
+        <pe-social-links-bar></pe-social-links-bar>
         <a href="https://project-evergreen.thegreenhouse.io">&copy; Project Evergreen 2018</a>
+        
       </footer>
     `;
   }
