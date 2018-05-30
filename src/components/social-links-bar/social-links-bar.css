@@ -6,6 +6,7 @@
   }
 
   & li {
+    margin: 0 10px;
     display: inline-block;
     list-style: none;
     background-size: cover;
@@ -24,5 +25,9 @@
 
   & li.twitter {
     background-image: url('./images/twitter.png');
+  }
+
+  & li.slack {
+    background-image: url('./images/slack.png');
   }
 }

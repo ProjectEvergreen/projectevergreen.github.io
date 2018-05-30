@@ -9,10 +9,10 @@
   }
 
   & .content-banner {
-    margin: 10px 0;
+    margin: 20px 0;
     padding: 10px 20%;
     color: #efefef;
-    background-color: #1d337a;
+    background: linear-gradient(to bottom right, #1d337a, #53585e);
   }
 
   & .content-body{
