@@ -48,7 +48,7 @@ class Home extends LitElement {
           
           <p>Review our <a href="https://github.com/ProjectEvergreen/project-evergreen/milestones" target="_blank" rel="noopener">roadmap</a> and help contribute</a> to our project!</p>
           
-          <p>For code and starter apps, checkout out our <a href="https://github.com/ProjectEvergreen" target="_blank" rel="noopener">GitHub repos</a> which you can read, 
+          <p>For code and starter apps, checkout our <a href="https://github.com/ProjectEvergreen" target="_blank" rel="noopener">GitHub repos</a> which you can read, 
           tinker with, and try out yourself!</p>
         </div>
       <div>
