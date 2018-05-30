@@ -27,6 +27,10 @@
     padding: 10px 0 0;
   }
 
+  & .content-footer p {
+    margin: 15px 0;
+  }
+
   & img.screenshot {
     display: inline-block;
     width: 100%;
@@ -34,5 +38,21 @@
 
   & h4 {
     margin: 0;
+  }
+
+  @media (max-width: 420px) {
+    & .content-body {
+      width: 90%;
+    }
+
+    & .content-banner {
+      margin: 5px;
+      padding: 5px;
+    }
+
+    & .content-footer {
+      width: 100%;
+      padding: 10px;
+    }
   }
 }
