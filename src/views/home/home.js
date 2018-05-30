@@ -23,7 +23,7 @@ class Home extends LitElement {
       <div id="view">
         <div class="content-banner">
           <p>The goal of <b class="project-name">Project Evergreen</b> is to provide clear, modern, and practical resources to those looking to build 
-          modern, dynamic, performant, and <b><i>evergreen</i></b> web applications.
+          modern, dynamic, performant, and <b><i>evergreen</i></b> web applications.</p>
           
           <br/>
           <br/>
@@ -45,7 +45,9 @@ class Home extends LitElement {
         <div class="content-footer">
           <h4><u>For more information:</u></h4>
           <span>Read <a href="https://github.com/ProjectEvergreen/project-evergreen/wiki" target="_blank" rel="noopener">our docs and how you can get started!</a><span></br>
-          <span>Review our <a href="https://github.com/ProjectEvergreen" target="_blank" rel="noopener">roadmap</a> and help contribute to our project!</span></br>
+          
+          <span>Review our <a href="https://github.com/ProjectEvergreen/project-evergreen/milestones" target="_blank" rel="noopener">roadmap</a> and help contribute</a> to our project!</span></br>
+          
           <span>For code and starter apps, checkout out our <a href="https://github.com/ProjectEvergreen" target="_blank" rel="noopener">GitHub repos</a> which you can read, 
           tinker with, and try out yourself!</span>
         </div>

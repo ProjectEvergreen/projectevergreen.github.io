@@ -12,7 +12,9 @@ class Header extends LitElement {
       
       <header>        
 
-        <h2 class="header-text">Project Evergreen (alpha)</h2>
+        <h2 class="header-text">Project Evergreen 
+          <a href="https://github.com/ProjectEvergreen/project-evergreen/milestone/1" target="_blank" rel="noopener">(alpha)</a>
+        </h2>
         <pe-social-links-bar></pe-social-links-bar>
     
       </header>
