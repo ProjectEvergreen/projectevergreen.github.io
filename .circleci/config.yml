@@ -26,6 +26,7 @@ jobs:
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
               
               echo "Master branch, releasing to production"
+              yarn run build
               yarn run release
 
             else
