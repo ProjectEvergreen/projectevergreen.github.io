@@ -11,7 +11,7 @@ class Header extends LitElement {
       
       <header>        
 
-        <h2 class="header-text">Project Evergreen</h2>
+        <h2 class="header-text">Project Evergreen (alpha)</h2>
     
       </header>
     `;

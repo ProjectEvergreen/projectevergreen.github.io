@@ -20,7 +20,7 @@ class Home extends LitElement {
         ${css}
       </style>
 
-      <div class="view">
+      <div id="view">
         <!-- <nav>
           <ul>
             <li>Getting Started</li>
@@ -28,26 +28,24 @@ class Home extends LitElement {
             <li>About</li>
           </ul>
         </nav> -->
-
-        <div class="section light">
-          <h3>Mission</h3>
-          
-          <p>The goal of <b>Project Evergreen</b> is to provide a resource to web application developers who are looking to build dynamic, performant, and <b><i>evergreen</i></b> (naturally) 
-          web applications.  The project's motivations are rooted in the fundamental belief that when applications are written with standards complicane in mind, the experience for 
-          users, developers, and businesses can be maximized for all parties equally.</p>
-
+        <div class="banner">
+          <p>The goal of <b class="project-name">Project Evergreen</b> is to provide resources for web application developers who are looking to build dynamic, performant, and <b><i>evergreen</i></b>
+          web applications.</p>
+<!--           
+          <p>The project's motivations are rooted in the fundamental belief that when applications are written with <i>standards compliance</i> in mind, the experience for 
+          users, developers, and businesses can be maximized for all involved.</p> -->
         </div>
-
-        <div class="content-wrapper">
-          <div>
-
+       
+        <div class="content-body">
           <pe-carousel slots$=${this.content.length}>
             ${ this.content.map(this.generateSlotTemplate) }
           </pe-carousel>
+        </div>
 
-          <p>Read more about what you can do in our <a href="#">Wiki docs</a> or look at our <a href="">GitHub repos</a> for projects you 
-          can read, tinker with, and use yourself!</p>
-          </div>
+        <div class="content-footer">
+          <p>Read more about what you can do in our <a href="https://github.com/ProjectEvergreen/project-evergreen/wiki" target="_blank" rel="noopener">wiki docs</a>,
+          look at our <a href="https://github.com/ProjectEvergreen" target="_blank" rel="noopener">roadmap</a> for what we're working on, and checkout out 
+          our <a href="https://github.com/ProjectEvergreen" target="_blank" rel="noopener">GitHub repos</a> which you can read, tinker with, and use yourself!</p>
         </div>
       <div>
     `;

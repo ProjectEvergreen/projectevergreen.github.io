@@ -34,8 +34,10 @@ class Carousel extends LitElement {
 
   generateCarouselNavigation() {
     return new Array(this.slots).fill(null).map((item, index) => {
+      const isActiveSlot = index === this.activeIndex ? 'active-slot' : 'slot';
+
       return html`
-        <li onclick=${() => this.setActiveIndex(index) }>Nav Item ${index + 1}</li>
+        <li class$="${isActiveSlot}" onclick=${() => this.setActiveIndex(index) }>o</li>
       `;
     });
   }

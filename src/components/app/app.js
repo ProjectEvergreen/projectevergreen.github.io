@@ -14,7 +14,7 @@ class App extends LitElement {
         ${css}
       </style>
 
-      <div id="container">
+      <div id="app-wrapper">
 
         <section>
           <pe-header></pe-header>
