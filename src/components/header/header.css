@@ -5,7 +5,9 @@
   margin-bottom: 20px;
   cursor: pointer;
 
-  & .header-text {
+  & .header-text, & a {
     margin: 0 auto;
+    color: #168c37;
+    text-decoration: underline;
   }
 }
