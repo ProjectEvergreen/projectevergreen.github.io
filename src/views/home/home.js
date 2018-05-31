@@ -22,7 +22,7 @@ class Home extends LitElement {
 
       <div id="view">
         <div class="content-banner">
-          <p>The goal of <b class="project-name">Project Evergreen</b> is to provide clear, modern, and practical resources to those looking to build 
+          <p>The goal of <b class="project-name">Project Evergreen</b> is to provide detailed, accessible, and practical resources to those looking to build 
           modern, dynamic, performant, and <b><i>evergreen</i></b> web applications.</p>
           
           <br/>
