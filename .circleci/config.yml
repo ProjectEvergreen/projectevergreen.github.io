@@ -32,6 +32,7 @@ jobs:
             elif [ "${CIRCLE_BRANCH}" == "develop" ]; then
 
               echo "master branch, nothing to do since process is manual"
+              rm -fv *.bundle.js
               yarn run build
 
             else
