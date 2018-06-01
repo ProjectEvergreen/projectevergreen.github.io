@@ -1,4 +1,10 @@
 # projectevergreen.github.io
+[![GitHub release](https://img.shields.io/github/tag/ProjectEvergreen/projectevergreen.github.io.svg)](https://github.com/ProjectEvergreen/projectevergreen.github.io/tags)
+![CircleCI branch](https://img.shields.io/circleci/project/github/RedSparr0w/node-csgo-parser/master.svg?style=plastic)
+[![GitHub issues](https://img.shields.io/github/issues-raw/ProjectEvergreen/projectevergreen.github.io.svg)](https://github.com/ProjectEvergreen/projectevergreen.github.io/issues)
+[![GitHub issues](https://img.shields.io/github/issues-pr-raw/ProjectEvergreen/projectevergreen.github.io.svg)](https://github.com/ProjectEvergreen/projectevergreen.github.io/issues)
+[![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/ProjectEvergreen/projectevergreen.github.io/master/LICENSE.md)
+
 Website repository written as an "evergreen" project.
 
 ## Development
