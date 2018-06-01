@@ -13,7 +13,7 @@ class Footer extends LitElement {
       <footer>     
 
         <pe-social-links-bar></pe-social-links-bar>
-        <a href="https://project-evergreen.thegreenhouse.io">&copy; Project Evergreen 2018</a>
+        <a href="https://projectevergreen.github.io/">&copy; Project Evergreen 2018</a>
         
       </footer>
     `;

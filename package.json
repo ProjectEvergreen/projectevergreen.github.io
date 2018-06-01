@@ -1,6 +1,6 @@
 {
   "name": "projectevergreen.github.io",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Website repository for Project Evergreen.",
   "main": "./src/index.js",
   "repository": "git@github.com:project-evergreen/projectevergreen.github.io.git",
