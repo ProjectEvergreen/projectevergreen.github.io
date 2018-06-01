@@ -5,8 +5,6 @@
 [![GitHub issues](https://img.shields.io/github/issues-pr-raw/ProjectEvergreen/projectevergreen.github.io.svg)](https://github.com/ProjectEvergreen/projectevergreen.github.io/issues)
 [![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/ProjectEvergreen/projectevergreen.github.io/master/LICENSE.md)
 
-Website repository written as an "evergreen" project.
-
 ## Development
 Make sure you have [NodeJS](https://nodejs.org/) and [Yarn](https://yarnpkg.com/en/) installed.
 
