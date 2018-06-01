@@ -56,9 +56,9 @@ function N(e,t){!function(e,t,n=y){let s=t.__templateInstance;if(void 0!==s&&s.t
         <pe-social-links-bar></pe-social-links-bar>
     
       </header>
-    `}});var A=n(4),S=n.n(A);customElements.define("pe-footer",class extends T{render(){return i`
+    `}});var S=n(4),A=n.n(S);customElements.define("pe-footer",class extends T{render(){return i`
       <style>
-        ${S.a}
+        ${A.a}
       </style>
       
       <footer>     
@@ -114,7 +114,7 @@ function N(e,t){!function(e,t,n=y){let s=t.__templateInstance;if(void 0!==s&&s.t
           <br/>
           <br/>
 
-          <span><i>This is not another framework or library per se, we're just really excited and passionate about the current state of Web APIs and what can be done with them.</i> 🤓</span>
+          <span><i>With the rise of evergreen browsers, we see an oppourtunity for evergreen web applications, and we think that’s pretty cool!</i></span> 🤓
         </div>
        
         <div class="content-body">
