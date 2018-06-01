@@ -1,9 +1,9 @@
 {
-  "name": "website",
+  "name": "projectevergreen.github.io",
   "version": "0.2.3",
-  "description": "Website repository for Project Greenhouse.",
+  "description": "Website repository for Project Evergreen.",
   "main": "./src/index.js",
-  "repository": "git@github.com:project-evergreen/website.git",
+  "repository": "git@github.com:project-evergreen/projectevergreen.github.io.git",
   "author": "Owen Buckley <owen@thegreenhouse.io>",
   "license": "Apache-2.0",
   "scripts": {
