@@ -29,7 +29,7 @@ jobs:
               yarn run build
               yarn run release:stage
 
-            elif [ "${CIRCLE_BRANCH}" == "develop" ]; then
+            elif [ "${CIRCLE_BRANCH}" == "master" ]; then
 
               echo "master branch, nothing to do since process is manual"
               rm -fv *.bundle.js
