@@ -1,4 +1,4 @@
-# project-evergreen.thegreenhouse.io
+# projectevergreen.github.io
 Website repository written as an "evergreen" project.
 
 ## Development
