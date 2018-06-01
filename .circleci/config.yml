@@ -23,11 +23,16 @@ jobs:
       - run:
           name: Execute The Build
           command: |
-            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+            if [ "${CIRCLE_BRANCH}" == "develop" ]; then
               
-              echo "Master branch, releasing to production"
+              echo "develop branch, releasing to stage (AWS)"
               yarn run build
-              yarn run release
+              yarn run release:stage
+
+            elif [ "${CIRCLE_BRANCH}" == "develop" ]; then
+
+              echo "master branch, nothing to do since process is manual"
+              yarn run build
 
             else
 

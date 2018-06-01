@@ -1,16 +1,17 @@
 {
-  "name": "website",
+  "name": "projectevergreen.github.io",
   "version": "0.2.3",
-  "description": "Website repository for Project Greenhouse.",
+  "description": "Website repository for Project Evergreen.",
   "main": "./src/index.js",
-  "repository": "git@github.com:project-evergreen/website.git",
+  "repository": "git@github.com:project-evergreen/projectevergreen.github.io.git",
   "author": "Owen Buckley <owen@thegreenhouse.io>",
   "license": "Apache-2.0",
   "scripts": {
     "build": "rimraf ./build && eslint *.js && webpack --config ./webpack.config.prod.js",
     "develop": "webpack-dev-server --config ./webpack.config.develop.js --open",
-    "release": "node release.js",
-    "serve": "yarn run build && cd build && http-server -o"
+    "release:stage": "node release.js",
+    "release:prod": "yarn build && cp -rv build/* .",
+    "serve": "yarn build && cd build && http-server -o"
   },
   "dependencies": {
     "lit-html-element": "^0.9.1"
