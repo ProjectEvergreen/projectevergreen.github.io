@@ -64,7 +64,7 @@ function N(e,t){!function(e,t,n=y){let s=t.__templateInstance;if(void 0!==s&&s.t
       <footer>     
 
         <pe-social-links-bar></pe-social-links-bar>
-        <a href="https://project-evergreen.thegreenhouse.io">&copy; Project Evergreen 2018</a>
+        <a href="https://projectevergreen.github.io/">&copy; Project Evergreen 2018</a>
         
       </footer>
     `}});const R={home:[{title:"Reduce",template:i`
