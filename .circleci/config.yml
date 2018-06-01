@@ -22,16 +22,4 @@ jobs:
 
       - run:
           name: Execute The Build
-          command: |
-            if [ "${CIRCLE_BRANCH}" == "master" ]; then
-              
-              echo "Master branch, releasing to production"
-              yarn run build
-              yarn run release
-
-            else
-
-              echo "Branch undetermined, likely a CI build"
-              yarn run build
-            
-            fi
+          command: yarn run build
