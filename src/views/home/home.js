@@ -28,7 +28,7 @@ class Home extends LitElement {
           <br/>
           <br/>
 
-          <span><i>With the rise of evergreen browsers, we see an oppourtunity for evergreen web applications, and we think that’s pretty cool!</i></span> 🤓
+          <span><i>With the rise of evergreen browsers, we see an opportunity for evergreen web applications, and we think that’s pretty cool!</i></span> 🤓
         </div>
        
         <div class="content-body">
