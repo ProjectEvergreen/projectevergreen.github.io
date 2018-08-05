@@ -13,6 +13,10 @@
     "release:prod": "rm -fv *.bundle.js && yarn build && cp -rv build/* . && rm -f README.md",
     "serve": "yarn build && cd build && http-server -o"
   },
+  "dependencies": {
+    "@polymer/lit-element": "^0.5.2",
+    "component-simple-slider": "^0.1.1"
+  },
   "devDependencies": {
     "aws-sdk": "^2.243.1",
     "babel-core": "^6.26.0",
@@ -37,9 +41,5 @@
     "webpack-cli": "^2.1.3",
     "webpack-dev-server": "^3.1.4",
     "webpack-merge": "^4.1.1"
-  },
-  "dependencies": {
-    "@polymer/lit-element": "^0.5.2",
-    "component-simple-slider": "^0.1.1"
   }
 }
