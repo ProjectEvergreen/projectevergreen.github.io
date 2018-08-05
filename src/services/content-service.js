@@ -1,4 +1,4 @@
-import { html } from 'lit-html-element';
+import { html } from '@polymer/lit-element';
 
 const content = {
   home: [{

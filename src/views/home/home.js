@@ -1,9 +1,9 @@
-import { LitElement, html } from 'lit-html-element';
+import { LitElement, html } from '@polymer/lit-element';
+import 'component-simple-slider';
 import ContentService from '../../services/content-service';
-import '../../components/carousel/carousel';
 import css from './home.css';
 
-class Home extends LitElement {
+class HomePage extends LitElement {
   constructor() {
     super();
 
@@ -14,7 +14,7 @@ class Home extends LitElement {
     return html`<div slot="slide${index + 1}"><h3>${item.title}</h3> ${item.template}</div>`;
   }
 
-  render() {
+  _render() {
     return html`
       <style>
         ${css}
@@ -32,9 +32,9 @@ class Home extends LitElement {
         </div>
        
         <div class="content-body">
-          <pe-carousel slots$=${this.content.length}>
+          <x-simple-slider slots$=${this.content.length}>
             ${ this.content.map(this.generateSlotTemplate) }
-          </pe-carousel>
+          </x-simple-slider>
         </div>
 
         <div class="content-banner">
@@ -56,4 +56,4 @@ class Home extends LitElement {
   }
 }
 
-customElements.define('pe-home', Home);
+customElements.define('x-home-page', HomePage);
