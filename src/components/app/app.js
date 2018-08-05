@@ -1,4 +1,4 @@
-import { LitElement, html } from 'lit-html-element';
+import { LitElement, html } from '@polymer/lit-element';
 import '../header/header';
 import '../footer/footer';
 import '../../views/home/home';
@@ -8,7 +8,7 @@ import css from './app.css';
 // https://stackoverflow.com/questions/39037489/extending-htmlelement-constructor-fails-when-webpack-was-used
 class App extends LitElement {
 
-  render() {
+  _render() {
     return html`
       <style>
         ${css}
@@ -17,15 +17,15 @@ class App extends LitElement {
       <div id="app-wrapper">
 
         <section>
-          <pe-header></pe-header>
+          <x-header></x-header>
         </section>
         
         <section>
-          <pe-home></pe-home>
+          <x-home-page></x-home-page>
         </section>
 
         <section>
-          <pe-footer></pe-footer>
+          <x-footer></x-footer>
         </section>
 
       </div>
@@ -33,4 +33,4 @@ class App extends LitElement {
   }
 }
 
-customElements.define('pe-app', App);
+customElements.define('x-app', App);

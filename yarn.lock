@@ -23,6 +23,19 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
+"@polymer/lit-element@^0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@polymer/lit-element/-/lit-element-0.5.2.tgz#8d4e2d1ada27cf0f1a38b7b0eb9fadae92eb63df"
+  dependencies:
+    "@polymer/polymer" "^3.0.2"
+    lit-html "^0.10.0"
+
+"@polymer/polymer@^3.0.2":
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/@polymer/polymer/-/polymer-3.0.5.tgz#eaa42e70df7de818b5e1839452c82a5f83e39929"
+  dependencies:
+    "@webcomponents/shadycss" "^1.2.0"
+
 "@sindresorhus/is@^0.7.0":
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
@@ -138,6 +151,10 @@
     "@webassemblyjs/ast" "1.4.2"
     "@webassemblyjs/wast-parser" "1.4.2"
     long "^3.2.0"
+
+"@webcomponents/shadycss@^1.2.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@webcomponents/shadycss/-/shadycss-1.4.0.tgz#2b2b66443252f81d02ebb2dd139e4a717655bfa9"
 
 abab@^1.0.4:
   version "1.0.4"
@@ -2030,6 +2047,10 @@ commondir@^1.0.1:
 component-emitter@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/component-emitter/-/component-emitter-1.2.1.tgz#137918d6d78283f7df7a6b7c5a63e140e69425e6"
+
+component-simple-slider@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/component-simple-slider/-/component-simple-slider-0.1.1.tgz#d626f83aff2d145df41f364069a89767739877ba"
 
 compressible@~2.0.11:
   version "2.0.12"
@@ -5558,16 +5579,9 @@ listr@^0.13.0:
     stream-to-observable "^0.2.0"
     strip-ansi "^3.0.1"
 
-lit-html-element@^0.9.1:
-  version "0.9.1"
-  resolved "https://registry.yarnpkg.com/lit-html-element/-/lit-html-element-0.9.1.tgz#555a8bd20a00e136c3b0d3933b31c1c19e984381"
-  dependencies:
-    lit-html "^0.8.0"
-    reflect-metadata "github:rbuckton/reflect-metadata"
-
-lit-html@^0.8.0:
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/lit-html/-/lit-html-0.8.0.tgz#4de0d1899585a3685870ffb919fedd61ebc79f03"
+lit-html@^0.10.0:
+  version "0.10.2"
+  resolved "https://registry.yarnpkg.com/lit-html/-/lit-html-0.10.2.tgz#53c846afcf91bb1e6623179ef22e327ab8ac0e0e"
 
 load-bmfont@^1.2.3:
   version "1.3.0"
@@ -8024,10 +8038,6 @@ reduce-function-call@^1.0.1, reduce-function-call@^1.0.2:
   resolved "https://registry.yarnpkg.com/reduce-function-call/-/reduce-function-call-1.0.2.tgz#5a200bf92e0e37751752fe45b0ab330fd4b6be99"
   dependencies:
     balanced-match "^0.4.2"
-
-"reflect-metadata@github:rbuckton/reflect-metadata":
-  version "0.1.12"
-  resolved "https://codeload.github.com/rbuckton/reflect-metadata/tar.gz/c2dbe1d02ceb9987f9002eedf0cdb21d74de0019"
 
 regenerate@^1.2.1:
   version "1.3.3"

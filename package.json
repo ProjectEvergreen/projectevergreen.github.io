@@ -14,7 +14,8 @@
     "serve": "yarn build && cd build && http-server -o"
   },
   "dependencies": {
-    "lit-html-element": "^0.9.1"
+    "@polymer/lit-element": "^0.5.2",
+    "component-simple-slider": "^0.1.1"
   },
   "devDependencies": {
     "aws-sdk": "^2.243.1",
