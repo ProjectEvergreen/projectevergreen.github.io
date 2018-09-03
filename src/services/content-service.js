@@ -1,5 +1,5 @@
 import { html } from '@polymer/lit-element';
-
+import './containers/container';
 const content = {
   home: [{
     title: 'Reduce',
@@ -9,7 +9,14 @@ const content = {
       <br/>
       <p><i>Favor polyfills over frameworks, but don't re-invent the wheel if you don't need to.</i></p>
     `
-  }, {
+  }, 
+  {
+    title: 'Reload',
+    template: html`
+      <x-container></x-container> 
+    `
+  },
+  {
     title: 'Reuse',
     template: html`
       <p>Component based development has become a widely adopted and pragmatic approach for modern web application development.</p>
