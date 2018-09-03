@@ -2,7 +2,7 @@ import { LitElement, html } from '@polymer/lit-element';
 import 'component-simple-slider';
 import ContentService from '../../services/content-service';
 import css from './home.css';
-
+import '../../services/containers/sidebar';
 class HomePage extends LitElement {
   constructor() {
     super();
@@ -19,12 +19,11 @@ class HomePage extends LitElement {
       <style>
         ${css}
       </style>
-
       <div id="view">
+        <x-drawer></x-drawer>
         <div class="content-banner">
           <p>The goal of <b class="project-name">Project Evergreen</b> is to provide detailed, accessible, and practical resources to those looking to build 
           modern, dynamic, performant, and <b><i>evergreen</i></b> web applications.</p>
-          
           <br/>
           <br/>
 

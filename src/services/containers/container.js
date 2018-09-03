@@ -10,8 +10,9 @@ class Container extends LitElement {
       <style>
         ${css}
       </style>
-    <div> This is an example of animation to be applied:
+    <div>This is an example of animation to be applied:
     <div class="Loader">Loading...</div>
+    
     </div>
     `;
   }
