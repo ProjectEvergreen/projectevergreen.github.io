@@ -1,10 +1,10 @@
-import { LitElement, html } from 'lit-html-element';
+import { LitElement, html } from '@polymer/lit-element';
 import '../social-links-bar/social-links-bar';
 import css from './header.css';
 
-class Header extends LitElement {
+class HeaderComponent extends LitElement {
 
-  render() {
+  _render() {
     return html`
       <style>
         ${css}
@@ -15,11 +15,11 @@ class Header extends LitElement {
         <h2 class="header-text">
           <a href="https://github.com/ProjectEvergreen/project-evergreen/" target="_blank" rel="noopener">Project Evergreen</a>
         </h2>
-        <pe-social-links-bar></pe-social-links-bar>
+        <x-social-links-bar></x-social-links-bar>
     
       </header>
     `;
   }
 }
 
-customElements.define('pe-header', Header);
+customElements.define('x-header', HeaderComponent);

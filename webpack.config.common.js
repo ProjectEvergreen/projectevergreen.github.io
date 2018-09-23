@@ -20,13 +20,12 @@ module.exports = {
       enforce: 'pre',
       loader: 'eslint-loader',
       exclude: path.join(__dirname, 'node_modules')
-    // TODO
-    // }, {
-    //   test: /\.js$/,
-    //   loaders: [
-    //     'babel-loader'
-    //   ],
-    //   exclude: path.join(__dirname, 'node_modules')
+    }, {
+      test: /\.js$/,
+      loaders: [
+        'babel-loader'
+      ],
+      exclude: path.join(__dirname, 'node_modules')
     }, {
       test: /\.css$/,
       use: ['css-to-string-loader', 'css-loader', 'postcss-loader'],
