@@ -1,9 +1,9 @@
-import { LitElement, html } from '@polymer/lit-element';
+import { html, LitElement } from 'lit-element';
 import css from './social-links-bar.css';
 
 class SocialLinksBarComponent extends LitElement {
 
-  _render() {
+  render() {
     return html`
       <style>
         ${css}
