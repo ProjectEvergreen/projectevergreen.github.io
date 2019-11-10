@@ -1,4 +1,6 @@
 *.log
 .vscode/
-build/
+.greenwood/
+public/
 node_modules/
+backup/
