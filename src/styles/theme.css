@@ -1,0 +1,11 @@
+* {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+}

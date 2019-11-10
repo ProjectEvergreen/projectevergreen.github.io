@@ -1,4 +1,7 @@
 import { html, LitElement } from 'lit-element';
+import '../components/header/header';
+import '../components/footer/footer';
+import '../styles/theme.css';
 
 MDIMPORT;
 METAIMPORT;
@@ -15,13 +18,21 @@ class PageTemplate extends LitElement {
       
       METAELEMENT
 
-      <section class="wrapper">
+      <div class="wrapper">
 
-        <div class="content">
+        <section>
+          <x-header></x-header>
+        </section>
+
+        <section class="content">
           <entry></entry>
-        </div>
+        </section>
 
-      </section>
+        <section>
+          <x-footer></x-footer>
+        </section>
+
+      </div>
     `;
   }
 }
