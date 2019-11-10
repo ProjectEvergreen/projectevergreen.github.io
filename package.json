@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@greenwood/cli": "^0.4.0",
+    "@greenwood/plugin-google-analytics": "^0.4.0",
     "eslint": "^6.6.0",
     "rimraf": "^3.0.0"
   }
