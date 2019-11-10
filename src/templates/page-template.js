@@ -1,5 +1,5 @@
 import { html, LitElement } from 'lit-element';
-// import 'component-simple-slider';
+import 'component-simple-slider';
 import '../components/header/header';
 import '../components/footer/footer';
 import ContentService from '../services/content-service';
@@ -27,7 +27,7 @@ class PageTemplate extends LitElement {
       METAELEMENT
 
       <style>
-        ${css}
+        ${ css }
       </style>
 
       <div class="wrapper">
@@ -39,7 +39,8 @@ class PageTemplate extends LitElement {
         <section class="content">
           <entry></entry>
 
-          <div id="view">
+          <div>
+
             <div class="content-banner">
               <p>The goal of <b class="project-name">Project Evergreen</b> is to provide detailed, accessible, and practical resources to those looking to build 
               modern, dynamic, performant, and <b><i>evergreen</i></b> web applications.</p>
@@ -50,11 +51,11 @@ class PageTemplate extends LitElement {
               <span><i>With the rise of evergreen browsers, we see an opportunity for evergreen web applications, and we think that’s pretty cool!</i></span> 🤓
             </div>
           
-            <!-- <div class="content-body">
-              <x-simple-slider slots$=${this.content.length}>
+            <div class="content-body">
+              <x-simple-slider .slots=${this.content.length}>
                 ${ this.content.map(this.generateSlotTemplate) }
               </x-simple-slider>
-            </div> -->
+            </div>
 
             <div class="content-banner">
               <p>The project's motivations are rooted in the fundamental belief that when applications are written with standards compliance in mind, we can maximize the <i>experience</i> for 
