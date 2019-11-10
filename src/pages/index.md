@@ -1,1 +1,0 @@
-# Welcome to projectevergreen.io!
