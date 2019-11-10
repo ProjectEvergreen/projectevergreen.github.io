@@ -22,4 +22,8 @@ jobs:
       run: |
         yarn install && yarn build
       env:
+<<<<<<< HEAD
         CI: true
+=======
+        CI: true
+>>>>>>> github actions
