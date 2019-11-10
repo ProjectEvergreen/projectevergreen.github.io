@@ -3,7 +3,7 @@ name: Deploy GitHub Pages
 on:
   push:	
     branches:	
-      - master
+      - develop
 
 jobs:
 
@@ -19,6 +19,7 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@releases/v2
       env:
         ACCESS_TOKEN: ${{ secrets.GITHUB_PAGES }}
-        BRANCH: gh-pages # The branch the action should deploy to.
+        BASE_BRANCH: develop # The branch the action should deploy from.
+        BRANCH: master # The branch the action should deploy to.
         FOLDER: public # The folder the action should deploy.
         BUILD_SCRIPT: yarn install && yarn build # The build script the action should run prior to deploying.
