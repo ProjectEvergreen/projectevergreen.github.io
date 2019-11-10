@@ -1,10 +1,10 @@
-import { LitElement, html } from '@polymer/lit-element';
+import { html, LitElement } from 'lit-element';
 import '../social-links-bar/social-links-bar';
 import css from './footer.css';
 
 class FooterComponent extends LitElement {
 
-  _render() {
+  render() {
     return html`
       <style>
         ${css}
