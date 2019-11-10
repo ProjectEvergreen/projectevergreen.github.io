@@ -1,10 +1,10 @@
-name: Node CI
+name: Continous Integration
 
 on: [push]
 
 jobs:
-  build:
 
+  build:
     runs-on: ubuntu-18.04
     container: docker://thegreenhouse/nodejs-dev:0.4.0
 
