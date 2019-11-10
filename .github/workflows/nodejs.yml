@@ -20,10 +20,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: install, build, and test
       run: |
-        yarn install && yarn build
+        yarn install && yarn lint && yarn build
       env:
-<<<<<<< HEAD
         CI: true
-=======
-        CI: true
->>>>>>> github actions
