@@ -1,6 +1,7 @@
 import { html, LitElement } from 'lit-element';
 import '../social-links-bar/social-links-bar';
 import css from './header.css';
+import '../components/social-icons/social-icons';
 
 class HeaderComponent extends LitElement {
 
@@ -9,14 +10,13 @@ class HeaderComponent extends LitElement {
       <style>
         ${css}
       </style>
-      
-      <header>        
+
+      <header>
 
         <h2 class="header-text">
-          <a href="https://github.com/ProjectEvergreen/project-evergreen/" target="_blank" rel="noopener">Project Evergreen</a>
+          Project Evergreen
         </h2>
-        <x-social-links-bar></x-social-links-bar>
-    
+        <eve-social-icons></eve-social-icons>
       </header>
     `;
   }

@@ -9,16 +9,16 @@ class FooterComponent extends LitElement {
       <style>
         ${css}
       </style>
-      
-      <footer>     
 
-        <pe-social-links-bar></pe-social-links-bar>
-        <a href="https://projectevergreen.github.io/">&copy; Project Evergreen 2018</a>
-        
+      <footer>
+<!-- 
+        <pe-social-links-bar></pe-social-links-bar> -->
+        <a href="https://projectevergreen.github.io/">&copy; Project Evergreen ${new Date().getFullYear()}</a>
+
       </footer>
     `;
   }
-  
+
 }
 
 customElements.define('x-footer', FooterComponent);

@@ -1,13 +1,25 @@
 :host {
   display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-bottom: 20px;
-  cursor: pointer;
+  padding: 2rem 4rem;
+  background-color: #192a27;
+  font-size: 1.2rem;
 
   & .header-text, & a {
-    margin: 0 auto 10px;
-    color: #168c37;
-    text-decoration: underline;
+    color: #FFF;
+    text-decoration: none;
+  }
+
+  & header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+
   }
 }
