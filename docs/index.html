@@ -1,0 +1,376 @@
+<!DOCTYPE html><html lang="en" prefix="og:http://ogp.me/ns#"><head><!-- Shady DOM styles for x-simple-slider --><style scope="x-simple-slider">x-simple-slider {
+  display: block;
+          border: #1d337a solid 3px;
+          border-radius: 10px;
+          padding: 20px;
+          min-height: 475px;
+          width: 100%;
+          text-align: center;
+}
+
+x-simple-slider ul.x-simple-slider {
+  padding: 0;
+}
+
+x-simple-slider li.x-simple-slider {
+  cursor: pointer;
+          list-style: none;
+          display: inline-block;
+          padding: 10px;
+          color: #020202;
+          font-size: 1.5em;
+}
+
+x-simple-slider li.active-slot.x-simple-slider {
+  color: #168c37;
+}
+
+x-simple-slider li.x-simple-slider:hover {
+  color: #168c37;
+          font-weight: bold;
+          transition: all 250ms ease;
+}
+
+x-simple-slider div.slot.x-simple-slider {
+  display: none;
+}
+
+x-simple-slider div.active-slot.x-simple-slider {
+  display: block;
+          transition: all 3s ease;
+}</style><!-- Shady DOM styles for x-social-links-bar --><!-- Shady DOM styles for eve-social-icons --><style scope="eve-social-icons">eve-social-icons {
+  display:-webkit-box;display:flex;justify-content:space-around;-webkit-box-orient:horizontal;-webkit-box-direction:normal;flex-direction:row
+}
+
+eve-social-icons .icons.eve-social-icons {
+  margin:auto
+}
+
+eve-social-icons .slack-icon.eve-social-icons {
+  padding:0 1rem 0 1.25rem
+}
+
+@media (max-width:768px) {
+eve-social-icons {
+  -webkit-box-orient:horizontal;-webkit-box-direction:normal;flex-direction:row
+}
+
+}</style><!-- Shady DOM styles for x-header --><style scope="x-header">x-header {
+  display:-webkit-box;display:flex;background-color:#192a27;font-size:1.2rem
+}
+
+x-header .header-text.x-header,x-header a.x-header {
+  color:#fff;text-decoration:none
+}
+
+x-header #brand-header.x-header,x-header header.x-header {
+  display:-webkit-box;display:flex
+}
+
+x-header header.x-header {
+  -webkit-box-pack:justify;justify-content:space-between;width:100%;padding:2rem 4rem
+}
+
+x-header img.x-header {
+  width:60px;margin-right:1rem
+}
+
+@media (max-width:768px) {
+x-header header.x-header {
+  -webkit-box-orient:vertical;-webkit-box-direction:normal;flex-direction:column;text-align:center;padding:1rem
+}
+
+x-header h2.x-header {
+  font-size:22px
+}
+
+x-header img.x-header {
+  width:40px
+}
+
+x-header #brand-header.x-header {
+  -webkit-box-pack:center;justify-content:center;margin-bottom:1rem
+}
+
+}</style><!-- Shady DOM styles for x-footer --><style scope="x-footer">x-footer {
+  display:-webkit-box;display:flex;-webkit-box-pack:center;justify-content:center;text-align:center;padding:2rem 0;background-color:#192a27
+}
+
+x-footer a.x-footer {
+  color:#fff;text-decoration:none
+}</style><!-- Shady DOM styles for wc-md-b93c361354468ae --><!-- Shady DOM styles for eve-meta --><!-- Shady DOM styles for eve-b93c361354468ae --><style scope="eve-b93c361354468ae">.content.eve-b93c361354468ae {
+  display:-webkit-box;display:flex;-webkit-box-pack:center;justify-content:center;text-align:center;margin:0 auto
+}
+
+.content.eve-b93c361354468ae p.eve-b93c361354468ae {
+  margin:0
+}
+
+.content.eve-b93c361354468ae .content-banner.eve-b93c361354468ae {
+  padding:4rem 0;background:#fff;color:#192a27;margin:auto;max-width:960px
+}
+
+.content.eve-b93c361354468ae .content-body.eve-b93c361354468ae {
+  padding:4rem 0;margin:0 auto;background-color:#fff;max-width:960px
+}
+
+.content.eve-b93c361354468ae .content-footer.eve-b93c361354468ae {
+  width:100vw;color:#fff;background-color:#192a27;margin:auto;padding:4rem 0
+}
+
+.content.eve-b93c361354468ae .content-footer.eve-b93c361354468ae p.eve-b93c361354468ae {
+  max-width:960px;margin:auto
+}
+
+.content.eve-b93c361354468ae .content-footer.eve-b93c361354468ae a.eve-b93c361354468ae {
+  color:#f9e7ca
+}
+
+.content.eve-b93c361354468ae img.screenshot.eve-b93c361354468ae {
+  display:inline-block;width:100%
+}
+
+.content.eve-b93c361354468ae h4.eve-b93c361354468ae {
+  margin:0
+}
+
+@media (max-width:768px) {
+.content.eve-b93c361354468ae .content-body.eve-b93c361354468ae {
+  width:92%;margin:auto;display:-webkit-box;display:flex;-webkit-box-pack:center;justify-content:center;padding:0
+}
+
+.content.eve-b93c361354468ae .content-banner.eve-b93c361354468ae {
+  width:90%;margin:auto;padding:2rem 1rem
+}
+
+.content.eve-b93c361354468ae .content-footer.eve-b93c361354468ae {
+  width:100%;font-size:18px
+}
+
+.content.eve-b93c361354468ae .content-footer.eve-b93c361354468ae p.eve-b93c361354468ae {
+  width:90%
+}
+
+}</style><!-- Shady DOM styles for lit-route --><!-- Shady DOM styles for eve-app --><style>body {transition: opacity ease-in 0.2s; } 
+body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; } 
+</style>
+    <title>Project Evergreen</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    
+
+    
+          <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-117350131-2"></script>
+
+          <script>
+            var getOutboundLink = function(url) {
+              gtag('event', 'click', {
+                'event_category': 'outbound',
+                'event_label': url,
+                'transport_type': 'beacon',
+                'event_callback': function(){document.location = url;}
+              });
+            }
+
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-117350131-2', { 'anonymize_ip': true });
+            gtag('config', 'UA-117350131-2');
+          </script>
+        
+
+    
+
+  <style type="text/css">@import url(https://fonts.googleapis.com/css?family=Raleway&display=swap);</style><style type="text/css">*{font-family:Raleway,sans-serif;font-size:1.2em;margin:0;padding:0}.wrapper{margin:0 auto;width:100%}</style><meta name="description" content="The goal of Project Evergreen is to provide detailed, accessible, and practical resources 
+to those looking to build modern, dynamic, performant, and evergreen web applications."><meta name="twitter:site" content="@PrjEvergreen"><meta name="twitter:creator" content="@PrjEvergreen"><meta property="og:title" content="Project Evergreen"><meta property="og:type" content="website"><meta property="og:url" content="https://projectevergreen.github.io/"><meta property="og:image" content="https://s3.amazonaws.com/uploads.thegreenhouse.io/project-evergreen/logo.png"><meta property="og:description" content="The goal of Project Evergreen is to provide detailed, accessible, and practical resources 
+to those looking to build modern, dynamic, performant, and evergreen web applications."><link rel="shortcut icon" href="/assets/favicon.ico"><link rel="icon" href="/assets/favicon.ico"><meta name="google-site-verification" content="rntZgfyG-5qkalTU3qnTEwZnhfJXIhFofM-wiM2Ym6I"></head>
+
+  <body>
+
+    <eve-app><!---->
+        <lit-route path="/" component="eve-b93c361354468ae" class="style-scope eve-app" active=""><!----><!----><eve-b93c361354468ae class="style-scope lit-route"><!---->
+      <eve-meta class="style-scope eve-b93c361354468ae"></eve-meta>
+
+      
+
+      <div class="wrapper style-scope eve-b93c361354468ae">
+
+        <section class="style-scope eve-b93c361354468ae">
+          <x-header class="style-scope eve-b93c361354468ae"><!---->
+      
+
+      <header class="style-scope x-header">
+        <div id="brand-header" class="style-scope x-header">
+          <img alt="project evergreen logo" class="style-scope x-header" src="/75f2eaebf3edf1644e9291c2e7f481d3.svg">
+          <h2 class="header-text style-scope x-header">
+            Project Evergreen
+          </h2>
+        </div>
+        <eve-social-icons class="style-scope x-header"><!---->
+      
+
+      <a class="icons style-scope eve-social-icons" target="_blank" rel="noreferrer noopener" aria-label="open github page" href="https://github.com/ProjectEvergreen"><!----><svg height="35" viewBox="0 0 16 16" version="1.1" width="35" aria-hidden="true" class="style-scope eve-social-icons">
+    <path fill-rule="evenodd" fill="white" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01
+      1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+      0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82
+      2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65
+      3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013
+      8.013 0 0016 8c0-4.42-3.58-8-8-8z" class="style-scope eve-social-icons">
+    </path>
+  </svg><!----></a>
+
+      <a class="icons slack-icon style-scope eve-social-icons" target="_blank" rel="noreferrer noopener" aria-label="slack" href="https://join.slack.com/t/thegreenhouseio/shared_invite/enQtMzcyMzE2Mjk1MjgwLTU5YmM1MDJiMTg0ODk4MjA4NzUwNWFmZmMxNDY5MTcwM2I0MjYxN2VhOTEwNDU2YWQwOWQzZmY1YzY4MWRlOGI"><!----><svg width="35" height="35" style="fill:white;" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg" class="style-scope eve-social-icons">
+    <g fill="none" fill-rule="evenodd" class="style-scope eve-social-icons">
+      <path d="M19.712.133a5.381 5.381 0 0 0-5.376 5.387 5.381 5.381 0 0 0 5.376
+        5.386h5.376V5.52A5.381 5.381 0 0 0 19.712.133m0 14.365H5.376A5.381
+        5.381 0 0 0 0 19.884a5.381 5.381 0 0 0 5.376 5.387h14.336a5.381 5.381
+        0 0 0 5.376-5.387 5.381 5.381 0 0 0-5.376-5.386" fill="#fff" class="style-scope eve-social-icons"></path>
+      <path d="M53.76 19.884a5.381 5.381 0 0 0-5.376-5.386 5.381 5.381 0 0 0-5.376
+        5.386v5.387h5.376a5.381 5.381 0 0 0 5.376-5.387m-14.336 0V5.52A5.381 5.381
+        0 0 0 34.048.133a5.381 5.381 0 0 0-5.376 5.387v14.364a5.381 5.381 0 0 0
+        5.376 5.387 5.381 5.381 0 0 0 5.376-5.387" fill="#fff" class="style-scope eve-social-icons"></path>
+      <path d="M34.048 54a5.381 5.381 0 0 0 5.376-5.387 5.381 5.381 0 0
+        0-5.376-5.386h-5.376v5.386A5.381 5.381 0 0 0 34.048 54m0-14.365h14.336a5.381
+        5.381 0 0 0 5.376-5.386 5.381 5.381 0 0 0-5.376-5.387H34.048a5.381 5.381
+        0 0 0-5.376 5.387 5.381 5.381 0 0 0 5.376 5.386" fill="#fff" class="style-scope eve-social-icons"></path>
+      <path d="M0 34.249a5.381 5.381 0 0 0 5.376 5.386 5.381 5.381 0 0 0
+        5.376-5.386v-5.387H5.376A5.381 5.381 0 0 0 0 34.25m14.336-.001v14.364A5.381
+        5.381 0 0 0 19.712 54a5.381 5.381 0 0 0 5.376-5.387V34.25a5.381 5.381
+        0 0 0-5.376-5.387 5.381 5.381 0 0 0-5.376 5.387" fill="#fff" class="style-scope eve-social-icons"></path>
+    </g>
+  </svg><!----></a>
+
+      <a class="icons style-scope eve-social-icons" target="_blank" rel="noreferrer noopener" aria-label="open twitter page" href="https://twitter.com/PrjEvergreen"><!----><!--?xml version="1.0" ?-->
+  
+  <svg enable-background="new 0 0 56.693 56.693" height="40px" id="Layer_1" version="1.1" viewBox="0 0 56.693 56.693" width="40px" fill="white" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="style-scope eve-social-icons">
+      <path d="M28.348,5.157c-13.6,0-24.625,11.027-24.625,24.625c0,13.6,11.025,24.623,24.625,24.623c13.6,0,24.623-11.023,24.623-24.623
+        C52.971,16.184,41.947,5.157,28.348,5.157z M40.752,24.817c0.013,0.266,0.018,0.533,0.018,0.803c0,8.201-6.242,17.656-17.656,17.656
+        c-3.504,0-6.767-1.027-9.513-2.787c0.486,0.057,0.979,0.086,1.48,0.086c2.908,0,5.584-0.992,7.707-2.656
+        c-2.715-0.051-5.006-1.846-5.796-4.311c0.378,0.074,0.767,0.111,1.167,0.111c0.566,0,1.114-0.074,1.635-0.217
+        c-2.84-0.57-4.979-3.08-4.979-6.084c0-0.027,0-0.053,0.001-0.08c0.836,0.465,1.793,0.744,2.811,0.777
+        c-1.666-1.115-2.761-3.012-2.761-5.166c0-1.137,0.306-2.204,0.84-3.12c3.061,3.754,7.634,6.225,12.792,6.483
+        c-0.106-0.453-0.161-0.928-0.161-1.414c0-3.426,2.778-6.205,6.206-6.205c1.785,0,3.397,0.754,4.529,1.959
+        c1.414-0.277,2.742-0.795,3.941-1.506c-0.465,1.45-1.448,2.666-2.73,3.433c1.257-0.15,2.453-0.484,3.565-0.977
+        C43.018,22.849,41.965,23.942,40.752,24.817z" class="style-scope eve-social-icons"></path>
+  </svg><!----></a>
+    <!----></eve-social-icons>
+      </header>
+    <!----></x-header>
+        </section>
+
+        <section class="content style-scope eve-b93c361354468ae">
+          <wc-md-b93c361354468ae class="style-scope eve-b93c361354468ae"><!---->
+      
+  <style class="style-scope wc-md-b93c361354468ae eve-b93c361354468ae">
+  
+  
+  </style>
+  
+      <div class="style-scope wc-md-b93c361354468ae eve-b93c361354468ae">
+        
+      </div>
+      <!----></wc-md-b93c361354468ae>
+
+          <div class="style-scope eve-b93c361354468ae">
+
+            <div class="content-banner style-scope eve-b93c361354468ae">
+              <p class="style-scope eve-b93c361354468ae">The goal of <b class="project-name style-scope eve-b93c361354468ae">Project Evergreen</b> is to provide detailed, accessible, and practical resources to those looking to build
+              modern, dynamic, performant, and <b class="style-scope eve-b93c361354468ae"><i class="style-scope eve-b93c361354468ae">evergreen</i></b> web applications.</p>
+
+              <br class="style-scope eve-b93c361354468ae">
+              <br class="style-scope eve-b93c361354468ae">
+
+              <span class="style-scope eve-b93c361354468ae"><i class="style-scope eve-b93c361354468ae">With the rise of evergreen browsers, we see an opportunity for evergreen web applications, and we think that’s pretty cool!</i></span> 🤓
+            </div>
+
+            <div class="content-body style-scope eve-b93c361354468ae">
+              <x-simple-slider class="style-scope eve-b93c361354468ae"><!---->
+      
+      
+      <div class="x-simple-slider style-scope">
+         <!---->
+        <div class="active-slot style-scope x-simple-slider"><div class="style-scope eve-b93c361354468ae" slot="slide1"><h3 class="style-scope eve-b93c361354468ae"><!---->Reduce<!----></h3> 
+      <p class="style-scope eve-b93c361354468ae">By leveraging more of the the web's native capabilities, application's can become more consistent, portable, and maintainable.  Reducing external dependencies
+      and being more "vanilla" can also provide passive improvements to performance and security.</p>
+      <br class="style-scope eve-b93c361354468ae">
+      <p class="style-scope eve-b93c361354468ae"><i class="style-scope eve-b93c361354468ae">Favor polyfills over frameworks, but don't re-invent the wheel if you don't need to.</i></p>
+    <!----></div></div>
+      <!---->
+        <div class="slot style-scope x-simple-slider"><div class="style-scope eve-b93c361354468ae" slot="slide2"><h3 class="style-scope eve-b93c361354468ae"><!---->Reuse<!----></h3> 
+      <p class="style-scope eve-b93c361354468ae">Component based development has become a widely adopted and pragmatic approach for modern web application development.</p>
+      <br class="style-scope eve-b93c361354468ae">
+      <p class="style-scope eve-b93c361354468ae">Reuse as a principal encourages the use of native "Web" components that look a lot like the components you may already be used to seeing and writing.</p>
+      <br class="style-scope eve-b93c361354468ae">
+      <a href="https://jsfiddle.net/thegreenhouseio/qjj9hvv9/1/" target="_blank" rel="noopener" class="style-scope eve-b93c361354468ae">
+        <img class="screenshot style-scope eve-b93c361354468ae" src="https://s3.amazonaws.com/uploads.thegreenhouse.io/project-evergreen/simple-component-example.jpg">
+      </a>
+    <!----></div></div>
+      <!---->
+        <div class="slot style-scope x-simple-slider"><div class="style-scope eve-b93c361354468ae" slot="slide3"><h3 class="style-scope eve-b93c361354468ae"><!---->Recycle<!----></h3> <p class="style-scope eve-b93c361354468ae">It should be clear, the JavaScript community and ecosystem is amazing and inspiring! There are so many wonderful tools and options out there, and that's what
+      makes it so great. You pick and choose what you need when you need it.  In fact, this project wouldn't be possible without the amazing work of projects like
+      <b class="style-scope eve-b93c361354468ae">Polymer</b>, <b class="style-scope eve-b93c361354468ae">Babel</b>, <b class="style-scope eve-b93c361354468ae">postCSS</b>, and <b class="style-scope eve-b93c361354468ae">webpack</b>. ❤️</p>
+      <br class="style-scope eve-b93c361354468ae">
+      <p class="style-scope eve-b93c361354468ae">We don't believe in sacrificing developer experience at the expense of writing sustainable, modern web applications. ✌️</p>
+    <!----></div></div>
+      <!---->
+         <ul class="style-scope x-simple-slider">
+           <!---->
+        <li class="active-slot style-scope x-simple-slider">o</li>
+      <!---->
+        <li class="slot style-scope x-simple-slider">o</li>
+      <!---->
+        <li class="slot style-scope x-simple-slider">o</li>
+      <!---->
+         </ul>
+       </div>
+    <!----></x-simple-slider>
+            </div>
+
+            <div class="content-banner style-scope eve-b93c361354468ae">
+              <p class="style-scope eve-b93c361354468ae">The project's motivations are rooted in the fundamental belief that when applications are written with standards compliance in mind, we can maximize the <i class="style-scope eve-b93c361354468ae">experience</i> for
+              users, developers, and businesses.</p>
+            </div>
+
+            <div class="content-footer style-scope eve-b93c361354468ae">
+              <h4 class="style-scope eve-b93c361354468ae"><u class="style-scope eve-b93c361354468ae">For more information:</u></h4>
+              <br class="style-scope eve-b93c361354468ae">
+              <p class="style-scope eve-b93c361354468ae">Read <a href="https://github.com/ProjectEvergreen/project-evergreen/wiki" target="_blank" rel="noopener" class="style-scope eve-b93c361354468ae">our docs and how you can get started!</a></p><p class="style-scope eve-b93c361354468ae">
+
+              </p><p class="style-scope eve-b93c361354468ae">Review our <a href="https://github.com/ProjectEvergreen/project-evergreen/milestones" target="_blank" rel="noopener" class="style-scope eve-b93c361354468ae">roadmap</a> and help contribute to our project!</p>
+
+              <p class="style-scope eve-b93c361354468ae">For code and starter apps, checkout our <a href="https://github.com/ProjectEvergreen" target="_blank" rel="noopener" class="style-scope eve-b93c361354468ae">GitHub repos</a> which you can read,
+              tinker with, and try out yourself!</p>
+            </div>
+            <x-footer class="style-scope eve-b93c361354468ae"><!---->
+      
+
+      <footer class="style-scope x-footer">
+<!-- 
+        <pe-social-links-bar></pe-social-links-bar> -->
+        <a href="https://projectevergreen.github.io/" class="style-scope x-footer">© Project Evergreen 2020<!----></a>
+
+      </footer>
+    <!----></x-footer>
+          <div class="style-scope eve-b93c361354468ae">
+        </div></div></section>
+
+        <!-- <section>
+          <x-footer></x-footer>
+        </section> -->
+
+      </div>
+    <!----></eve-b93c361354468ae><!----><!----></lit-route>
+				
+        <lit-route class="style-scope eve-app"><!----><!----></lit-route>
+    <!----></eve-app>
+  <script type="text/javascript" src="/index.50e39158848f3dc5fc3c.bundle.js"></script>
+
+</body></html>

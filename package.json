@@ -10,7 +10,8 @@
     "lint": "eslint \"*.js\" \"src/**/**/*.js\"",
     "build": "greenwood build",
     "develop": "greenwood develop",
-    "serve": "yarn clean && yarn build && ws -d ./public"
+    "serve": "yarn clean && yarn build && ws -d ./public",
+    "pages": "mv public/ docs/"
   },
   "dependencies": {
     "component-simple-slider": "^0.2.0"
