@@ -15,11 +15,19 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: Build and Deploy
-      uses: JamesIves/github-pages-deploy-action@releases/v2
-      env:
-        ACCESS_TOKEN: ${{ secrets.GITHUB_PAGES }}
-        BASE_BRANCH: master # The branch the action should deploy from.
-        BRANCH: master # The branch the action should deploy to.
-        FOLDER: docs # The folder the action should deploy.
-        BUILD_SCRIPT: yarn install && yarn build && yarn pages # The build script the action should run prior to deploying.
+    - name: Yarn install
+      run: |
+        yarn install --frozen-lockfile
+
+    - name: Yarn Build
+      run: |
+        yarn lint && yarn build
+
+    # - name: Build and Deploy
+    #   uses: JamesIves/github-pages-deploy-action@releases/v2
+    #   env:
+    #     ACCESS_TOKEN: ${{ secrets.GITHUB_PAGES }}
+    #     BASE_BRANCH: master # The branch the action should deploy from.
+    #     BRANCH: master # The branch the action should deploy to.
+    #     FOLDER: docs # The folder the action should deploy.
+    #     BUILD_SCRIPT: yarn install && yarn build && yarn pages # The build script the action should run prior to deploying.
