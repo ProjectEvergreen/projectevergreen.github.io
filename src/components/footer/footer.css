@@ -2,5 +2,11 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  /* background-color: #eeeeee; */
+  padding: 2rem 0;
+  background-color: #192a27;
+
+  & a {
+    color: #fff;
+    text-decoration: none;
+  }
 }
