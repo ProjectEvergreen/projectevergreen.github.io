@@ -1,8 +1,8 @@
 name: Deploy GitHub Pages
 
 on:
-  push:	
-    branches:	
+  push:
+    branches:
       - develop
 
 jobs:
