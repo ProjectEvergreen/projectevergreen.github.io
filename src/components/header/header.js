@@ -14,7 +14,9 @@ class HeaderComponent extends LitElement {
 
       <header>
         <div id="brand-header">
-          <img src="${evergreenLogo}"  alt="project evergreen logo" />
+          <div>
+            <img src="${evergreenLogo}"  alt="project evergreen logo" />
+          </div>
           <h2 class="header-text">
             Project Evergreen
           </h2>
