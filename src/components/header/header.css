@@ -21,7 +21,7 @@
 
   & img {
     width: 60px;
-    margin-right: 1rem;
+    margin: 1rem 1rem 1rem 0;
   }
 
   @media (max-width: 768px) {
@@ -32,9 +32,11 @@
     }
     h2 {
       font-size: 22px;
+      margin-top: auto;
     }
     img {
-      width: 40px;
+      width: 30px;
+      margin: 0 0.5rem 0 0;
     }
     #brand-header {
       justify-content: center;
