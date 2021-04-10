@@ -15,7 +15,7 @@ const content = {
       <p>Reuse as a principal encourages the use of native "Web" components that look a lot like the components you may already be used to seeing and writing.</p>
       <br/>
       <a href="https://jsfiddle.net/thegreenhouseio/qjj9hvv9/1/" target="_blank" rel="noopener">
-        <img class="screenshot" src="https://s3.amazonaws.com/uploads.thegreenhouse.io/project-evergreen/simple-component-example.jpg"/>
+        <img class="screenshot" src="https://s3.amazonaws.com/uploads.thegreenhouse.io/project-evergreen/simple-component-example.jpg" loading=lazy/>
       </a>
     `
   }, {
