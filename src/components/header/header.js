@@ -1,8 +1,7 @@
 import { html, LitElement } from 'lit-element';
-import '../social-links-bar/social-links-bar';
+import '../social-links-bar/social-links-bar.js';
 import css from './header.css';
-import '../components/social-icons/social-icons';
-import evergreenLogo from '../assets/evergreen.svg';
+import '../social-icons/social-icons.js';
 
 class HeaderComponent extends LitElement {
 
@@ -15,7 +14,7 @@ class HeaderComponent extends LitElement {
       <header>
         <div id="brand-header">
           <div>
-            <img src="${evergreenLogo}"  alt="project evergreen logo" />
+            <img src="/assets/evergreen.svg"  alt="project evergreen logo" />
           </div>
           <h2 class="header-text">
             Project Evergreen

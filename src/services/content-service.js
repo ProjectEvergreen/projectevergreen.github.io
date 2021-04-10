@@ -1,9 +1,7 @@
-import { html } from 'lit-element';
-
 const content = {
   home: [{
     title: 'Reduce',
-    template: html`
+    template: `
       <p>By leveraging more of the the web's native capabilities, application's can become more consistent, portable, and maintainable.  Reducing external dependencies
       and being more "vanilla" can also provide passive improvements to performance and security.</p>
       <br/>
@@ -11,7 +9,7 @@ const content = {
     `
   }, {
     title: 'Reuse',
-    template: html`
+    template: `
       <p>Component based development has become a widely adopted and pragmatic approach for modern web application development.</p>
       <br/>
       <p>Reuse as a principal encourages the use of native "Web" components that look a lot like the components you may already be used to seeing and writing.</p>
@@ -22,7 +20,7 @@ const content = {
     `
   }, {
     title: 'Recycle',
-    template: html`<p>It should be clear, the JavaScript community and ecosystem is amazing and inspiring! There are so many wonderful tools and options out there, and that's what
+    template: `<p>It should be clear, the JavaScript community and ecosystem is amazing and inspiring! There are so many wonderful tools and options out there, and that's what
       makes it so great. You pick and choose what you need when you need it.  In fact, this project wouldn't be possible without the amazing work of projects like
       <b>Polymer</b>, <b>Babel</b>, <b>postCSS</b>, and <b>webpack</b>. ❤️</p>
       <br/>
