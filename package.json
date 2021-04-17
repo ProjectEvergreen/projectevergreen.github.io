@@ -10,16 +10,20 @@
     "lint": "eslint \"*.js\" \"src/**/**/*.js\"",
     "build": "greenwood build",
     "develop": "greenwood develop",
-    "serve": "yarn clean && yarn build && ws -d ./public",
+    "serve": "greenwood serve",
     "pages": "mv public/ docs/"
   },
   "dependencies": {
-    "component-simple-slider": "^0.2.0"
+    "component-simple-slider": "^0.2.0",
+    "lit-element": "^2.4.0"
   },
   "devDependencies": {
-    "@greenwood/cli": "^0.4.0",
-    "@greenwood/plugin-google-analytics": "^0.4.0",
+    "@greenwood/cli": "^0.10.1",
+    "@greenwood/plugin-google-analytics": "^0.10.1",
+    "@greenwood/plugin-import-css": "^0.10.1",
+    "@greenwood/plugin-postcss": "^0.10.1",
     "eslint": "^6.6.0",
+    "postcss-nested": "^4.1.2",
     "rimraf": "^3.0.0"
   }
 }

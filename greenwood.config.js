@@ -1,4 +1,6 @@
 const pluginGoogleAnalytics = require('@greenwood/plugin-google-analytics');
+const pluginImportCss = require('@greenwood/plugin-import-css');
+const pluginPostCss = require('@greenwood/plugin-postcss');
 
 const FAVICON_HREF = '/assets/favicon.ico';
 const HANDLE = '@PrjEvergreen';
@@ -23,7 +25,11 @@ module.exports = {
   ],
 
   plugins: [
-    ...pluginGoogleAnalytics({
+    pluginPostCss(),
+    
+    ...pluginImportCss(),
+
+    pluginGoogleAnalytics({
       analyticsId: 'UA-117350131-2'
     })
   ]
