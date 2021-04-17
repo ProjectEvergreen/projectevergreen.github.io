@@ -11,7 +11,7 @@
     "build": "greenwood build",
     "develop": "greenwood develop",
     "serve": "greenwood serve",
-    "pages": "mv public/ docs/"
+    "pages": "rimraf ./docs && yarn build && cp -r public/ docs"
   },
   "dependencies": {
     "component-simple-slider": "^0.2.0",
