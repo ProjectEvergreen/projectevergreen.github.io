@@ -2,57 +2,20 @@
             
                         
                         
+                        
                           
                           <head>
                           <link rel="preload" href="/styles/home.lmnvbnrl.css" as="style" crossorigin="anonymous"></link>
                         
                           <link rel="preload" href="/styles/theme.qgltcg9y.css" as="style" crossorigin="anonymous"></link>
                         
+                        <link rel="modulepreload" href="/projects-list.8e2a277a.js" as="script">
+                      
                         <link rel="modulepreload" href="/header.6462d527.js" as="script">
                       
                         <link rel="modulepreload" href="/footer.97ef3bb2.js" as="script">
                       
-              <head><!-- Shady DOM styles for x-simple-slider --><style scope="x-simple-slider">x-simple-slider {
-  display: block;
-          border: #1d337a solid 3px;
-          border-radius: 10px;
-          padding: 20px;
-          min-height: 475px;
-          width: 100%;
-          text-align: center;
-}
-
-x-simple-slider ul.x-simple-slider {
-  padding: 0;
-}
-
-x-simple-slider li.x-simple-slider {
-  cursor: pointer;
-          list-style: none;
-          display: inline-block;
-          padding: 10px;
-          color: #020202;
-          font-size: 1.5em;
-}
-
-x-simple-slider li.active-slot.x-simple-slider {
-  color: #168c37;
-}
-
-x-simple-slider li.x-simple-slider:hover {
-  color: #168c37;
-          font-weight: bold;
-          transition: all 250ms ease;
-}
-
-x-simple-slider div.slot.x-simple-slider {
-  display: none;
-}
-
-x-simple-slider div.active-slot.x-simple-slider {
-  display: block;
-          transition: all 3s ease;
-}</style><!-- Shady DOM styles for x-social-links-bar --><!-- Shady DOM styles for eve-social-icons --><style scope="eve-social-icons">eve-social-icons {
+              <head><!-- Shady DOM styles for app-projects-list --><!-- Shady DOM styles for x-social-links-bar --><!-- Shady DOM styles for eve-social-icons --><style scope="eve-social-icons">eve-social-icons {
   display: flex;   justify-content: space-around;   flex-direction: row;
 }
 
@@ -130,7 +93,7 @@ to those looking to build modern, dynamic, performant, and evergreen web applica
 <meta name="twitter:creator" content="@PrjEvergreen">
 <meta property="og:title" content="Project Evergreen">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://projectevergreen.github.io">
+<meta property="og:url" content="https://projectevergreen.github.io/projects/">
 <meta property="og:image" content="https://s3.amazonaws.com/uploads.thegreenhouse.io/project-evergreen/logo.png">
 <meta property="og:description" content="The goal of Project Evergreen is to provide detailed, accessible, and practical resources 
 to those looking to build modern, dynamic, performant, and evergreen web applications.">
@@ -146,63 +109,7 @@ to those looking to build modern, dynamic, performant, and evergreen web applica
     <script type="module" src="/footer.97ef3bb2.js"></script>
     <script type="module" src="/header.6462d527.js"></script>
 
-          <script type="module">import{L as e,h as t}from"/lit-element.4e4bdcd5.js";customElements.define("x-simple-slider",class extends e{constructor(){super(),this.slots=0,this.activeIndex=0}static get properties(){return{activeIndex:{type:Number,attrName:"activeIndex"},slots:{type:Number,attrName:"slots"}}}generateCarouselContent(){return new Array(this.slots).fill(null).map(((e,n)=>{const s=n===this.activeIndex?"active-slot":"slot";return t`
-        <div class="${s}"><slot .name="slide${n+1}"></slot></div>
-      `}))}generateCarouselNavigation(){return new Array(this.slots).fill(null).map(((e,n)=>{const s=n===this.activeIndex?"active-slot":"slot";return t`
-        <li class="${s}" @click=${()=>this.setActiveIndex(n)}>o</li>
-      `}))}setActiveIndex(e){this.activeIndex=e}render(){return t`
-      <style>
-        :host {
-          display: block;
-          border: #1d337a solid 3px;
-          border-radius: 10px;
-          padding: 20px;
-          min-height: 475px;
-          width: 100%;
-          text-align: center;
-        }
-
-        :host ul {
-          padding: 0;
-        }
-
-        :host li {
-          cursor: pointer;
-          list-style: none;
-          display: inline-block;
-          padding: 10px;
-          color: #020202;
-          font-size: 1.5em;
-        }
-
-        :host li.active-slot {
-          color: #168c37;
-        }
-
-        :host li:hover {
-          color: #168c37;
-          font-weight: bold;
-          transition: all 250ms ease;
-        }
-        
-        :host div.slot {
-          display: none;
-        }
-
-        :host div.active-slot {
-          display: block;
-          transition: all 3s ease;
-        }
-      </style>
-      
-      <div class="x-simple-slider">
-         ${this.generateCarouselContent()}
-         <ul>
-           ${this.generateCarouselNavigation()}
-         </ul>
-       </div>
-    `}});const n={home:[{title:"Reduce",template:"\n      <p>By leveraging more of the the web's native capabilities, application's can become more consistent, portable, and maintainable.  Reducing external dependencies\n      and being more \"vanilla\" can also provide passive improvements to performance and security.</p>\n      <br/>\n      <p><i>Favor polyfills over frameworks, but don't re-invent the wheel if you don't need to.</i></p>\n    "},{title:"Reuse",template:'\n      <p>Component based development has become a widely adopted and pragmatic approach for modern web application development.</p>\n      <br/>\n      <p>Reuse as a principal encourages the use of native "Web" components that look a lot like the components you may already be used to seeing and writing.</p>\n      <br/>\n      <a href="https://jsfiddle.net/thegreenhouseio/qjj9hvv9/1/" target="_blank" rel="noopener">\n        <img class="screenshot" src="/assets/simple-component-example.jpg" height="670px" width="960px" loading="lazy"/>\n      </a>\n    '},{title:"Recycle",template:"<p>It should be clear, the JavaScript community and ecosystem is amazing and inspiring! There are so many wonderful tools and options out there, and that's what\n      makes it so great. You pick and choose what you need when you need it.  In fact, this project wouldn't be possible without the amazing work of projects like\n      <b>Polymer</b>, <b>Babel</b>, <b>postCSS</b>, and <b>webpack</b>. ❤️</p>\n      <br/>\n      <p>We don't believe in sacrificing developer experience at the expense of writing sustainable, modern web applications. ✌️</p>\n    "}]};const s=class{static getContent(e){return n[e]?n[e]:[]}}.getContent("home"),i=document.getElementsByTagName("x-simple-slider")[0],o=s.reduce(((e,t,n)=>e+`\n          <div slot="slide${n+1}"><h3>${t.title}</h3>${t.template}</div>\n        `),"");i.setAttribute("slots",s.length),i.innerHTML=o;
-</script>
+          <script type="module" src="/projects-list.8e2a277a.js"></script>
 
         
   
@@ -300,76 +207,92 @@ to those looking to build modern, dynamic, performant, and evergreen web applica
 
       <section class="content">
         
-    <div>
+    <div class="content-body">
       
-      <div class="content-banner">
-        <p>The goal of <b class="project-name">Project Evergreen</b> is to provide detailed, accessible, and practical resources to those looking to build
-        modern, dynamic, performant, and <b><i>evergreen</i></b> web applications.</p>
+      <p>Below are some of the active projects we're working on and anyone is welcome to get involved!</p>
 
-        <br>
-        <br>
+      <app-projects-list>
+  <style class="style-scope app-projects-list">
+    article {
+      margin-bottom: 25px;
+    }
+    
+    .card {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      word-wrap: break-word;
+      background-color: #fff;
+      background-clip: initial;
+      border: 1px solid rgba(0,0,0,.125);
+      border-radius: .25rem;
+      box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+    }
 
-        <span><i>With the rise of evergreen browsers, we see an opportunity for evergreen web applications, and we think that's pretty cool!</i></span>
+    .card p {
+      text-align: center;
+      font-size: 1rem;
+      padding: 5px;
+    }
+    
+    .card .card-img-top {
+      background-size: cover;
+      background-position-x: center;
+      background-position-y: center;
+    }
+
+    .card .card-img-top img {
+      width: 200px;
+      max-width: 200px;
+    }
+  </style>
+
+  
+    <article class="card style-scope app-projects-list">
+      
+      <h1 class="style-scope app-projects-list">Greenwood</h1>
+      <div class="card-img-top style-scope app-projects-list">
+        <img src="/assets/projects/greenwood-logo-500w.png" alt="Greenwood" loading="lazy" class="style-scope app-projects-list">
       </div>
-
-      <div class="content-body">
-        <x-simple-slider slots="3"><!---->
       
+      <p class="style-scope app-projects-list">A modern and performance static site generator for the modern web.</p>
       
-      <div class="x-simple-slider style-scope">
-         <!---->
-        <div class="active-slot style-scope x-simple-slider"><div slot="slide1"><h3>Reduce</h3>
-      <p>By leveraging more of the the web's native capabilities, application's can become more consistent, portable, and maintainable.  Reducing external dependencies
-      and being more "vanilla" can also provide passive improvements to performance and security.</p>
-      <br>
-      <p><i>Favor polyfills over frameworks, but don't re-invent the wheel if you don't need to.</i></p>
-    </div></div>
-      <!---->
-        <div class="slot style-scope x-simple-slider"><div slot="slide2"><h3>Reuse</h3>
-      <p>Component based development has become a widely adopted and pragmatic approach for modern web application development.</p>
-      <br>
-      <p>Reuse as a principal encourages the use of native "Web" components that look a lot like the components you may already be used to seeing and writing.</p>
-      <br>
-      <a href="https://jsfiddle.net/thegreenhouseio/qjj9hvv9/1/" target="_blank" rel="noopener">
-        <img class="screenshot" src="/assets/simple-component-example.jpg" height="670px" width="960px" loading="lazy">
+      <a href="https://www.greenwoodjs.io/" title="Greenwood Website" class="style-scope app-projects-list">
+        <img src="https://img.shields.io/github/stars/ProjectEvergreen/greenwood.svg?style=social&amp;logo=github&amp;label=github" alt="Greenwood GitHub badge" class="github-badge style-scope app-projects-list" loading="lazy">
       </a>
-    </div></div>
-      <!---->
-        <div class="slot style-scope x-simple-slider"><div slot="slide3"><h3>Recycle</h3><p>It should be clear, the JavaScript community and ecosystem is amazing and inspiring! There are so many wonderful tools and options out there, and that's what
-      makes it so great. You pick and choose what you need when you need it.  In fact, this project wouldn't be possible without the amazing work of projects like
-      <b>Polymer</b>, <b>Babel</b>, <b>postCSS</b>, and <b>webpack</b>. ❤️</p>
-      <br>
-      <p>We don't believe in sacrificing developer experience at the expense of writing sustainable, modern web applications. ✌️</p>
-    </div></div>
-      <!---->
-         <ul class="style-scope x-simple-slider">
-           <!---->
-        <li class="active-slot style-scope x-simple-slider">o</li>
-      <!---->
-        <li class="slot style-scope x-simple-slider">o</li>
-      <!---->
-        <li class="slot style-scope x-simple-slider">o</li>
-      <!---->
-         </ul>
-       </div>
-    <!----></x-simple-slider>
+    </article>
+  
+    <article class="card style-scope app-projects-list">
+      
+      <h1 class="style-scope app-projects-list">Evergreen Web Components</h1>
+      <div class="card-img-top style-scope app-projects-list">
+        <img src="/assets/evergreen.svg" alt="Evergreen Web Components" loading="lazy" class="style-scope app-projects-list">
       </div>
-
-      <div class="content-banner">
-        <p>The project's motivations are rooted in the fundamental belief that when applications are written with standards compliance in mind, we can maximize the <i>experience</i> for
-        users, developers, and businesses.</p>
+      
+      <p class="style-scope app-projects-list">A component library bsaed on modern Web (Component) standards.</p>
+      
+      <a href="https://evergreen-wc.hutchdev.ca/docs" title="Evergreen Web Components Website" class="style-scope app-projects-list">
+        <img src="https://img.shields.io/github/stars/hutchgrant/evergreen-web-components.svg?style=social&amp;logo=github&amp;label=github" alt="Evergreen Web Components GitHub badge" class="github-badge style-scope app-projects-list" loading="lazy">
+      </a>
+    </article>
+  
+    <article class="card style-scope app-projects-list">
+      
+      <h1 class="style-scope app-projects-list">Contributary</h1>
+      <div class="card-img-top style-scope app-projects-list">
+        <img src="/assets/projects/contributary.png" alt="Contributary" loading="lazy" class="style-scope app-projects-list">
       </div>
-
-      <div class="content-footer">
-        <h4><u>For more information:</u></h4>
-        <br>
-        <p>Read <a href="https://github.com/ProjectEvergreen/project-evergreen/wiki" target="_blank" rel="noopener">our docs and how you can get started!</a></p><p>
-
-        </p><p>Review our <a href="https://github.com/ProjectEvergreen/project-evergreen/milestones" target="_blank" rel="noopener">roadmap</a> and help contribute to our project!</p>
-
-        <p>For code and starter apps, checkout our <a href="https://github.com/ProjectEvergreen" target="_blank" rel="noopener">GitHub repos</a> which you can read,
-        tinker with, and try out yourself!</p>
-      </div>
+      
+      <p class="style-scope app-projects-list">Helping connect open source with the open source community.</p>
+      
+      <a href="https://www.contributary.community/" title="Contributary Website" class="style-scope app-projects-list">
+        <img src="https://img.shields.io/github/stars/ContributaryCommunity/www.contributary.community.svg?style=social&amp;logo=github&amp;label=github" alt="Contributary GitHub badge" class="github-badge style-scope app-projects-list" loading="lazy">
+      </a>
+    </article>
+  
+</app-projects-list>
 
     </div>
   
