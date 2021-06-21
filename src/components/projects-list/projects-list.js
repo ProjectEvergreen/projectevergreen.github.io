@@ -1,6 +1,6 @@
 const projects = [{
   name: 'Greenwood',
-  description: 'A modern and performance static site generator for the modern web.',
+  description: 'A modern and performant static site generator supporting Web Component based development.',
   image: '/assets/projects/greenwood-logo-500w.png',
   github: 'ProjectEvergreen/greenwood',
   website: 'https://www.greenwoodjs.io/'
