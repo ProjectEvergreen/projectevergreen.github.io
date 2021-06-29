@@ -1,8 +1,8 @@
 import { html, LitElement } from 'lit-element';
 import css from './social-icons.css';
-import githubIcon from '../icons/github-icon';
-import twitterIcon from '../icons/twitter-icon';
-import slackIcon from '../icons/slack-icon';
+import githubIcon from '../icons/github-icon.js';
+import twitterIcon from '../icons/twitter-icon.js';
+import slackIcon from '../icons/slack-icon.js';
 
 class SocialIcons extends LitElement {
   render() {
