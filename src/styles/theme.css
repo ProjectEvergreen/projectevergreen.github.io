@@ -17,13 +17,20 @@
   background-color: #192a27;
 }
 
+.content {
+  width: 60ch;
+  padding: 3rem 0;
+  margin: auto;
+  min-height: 60vh;
+}
+
 nav, nav a {
   color: white;
   background-color: #192a27;
   text-align: center;
 }
 
-nav ul {
+ul {
   list-style-type: none;
 }
 

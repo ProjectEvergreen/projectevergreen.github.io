@@ -1,4 +1,26 @@
-article.content {
-  width: 80%;
-  margin: 0 auto;
+h1, h2 {
+  margin: 1.3rem 0;
+}
+
+h1, del {
+  font-size: 1.6rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+p, em, strong, a, code {
+  margin: 1rem 0;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+img {
+  max-width: 700px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
 }
