@@ -18,6 +18,7 @@ p, em, strong, a, code {
 
 img {
   max-width: 700px;
+  width: 100%;
 }
 
 .image-container {

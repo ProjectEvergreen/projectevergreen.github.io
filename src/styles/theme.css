@@ -18,7 +18,7 @@
 }
 
 .content {
-  width: 60ch;
+  max-width: 60ch;
   padding: 3rem 0;
   margin: auto;
   min-height: 60vh;
@@ -37,4 +37,10 @@ ul {
 nav li {
   display: inline-block;
   padding: 0 10px 10px;
+}
+
+@media(max-width: 768px) {
+  .content {
+    padding: 1rem;
+  }
 }
