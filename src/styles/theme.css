@@ -34,9 +34,17 @@ ul {
   list-style-type: none;
 }
 
-nav li {
+nav ul {
+  padding: 0;
+}
+
+nav ul li {
   display: inline-block;
   padding: 0 10px 10px;
+}
+
+nav ul li a {
+  font-size: 1.2rem;
 }
 
 @media(max-width: 768px) {
