@@ -22,9 +22,9 @@ const content = {
     title: 'Recycle',
     template: `<p>It should be clear, the JavaScript community and ecosystem is amazing and inspiring! There are so many wonderful tools and options out there, and that's what
       makes it so great. You pick and choose what you need when you need it.  In fact, this project wouldn't be possible without the amazing work of projects like
-      <b>Polymer</b>, <b>Babel</b>, <b>postCSS</b>, and <b>webpack</b>. ❤️</p>
+      open source JavaScript community. ❤️</p>
       <br/>
-      <p>We don't believe in sacrificing developer experience at the expense of writing sustainable, modern web applications. ✌️</p>
+      <p>We don't believe in sacrificing any experiences in the pursuit of writing modern web sites and applications. ✌️</p>
     `
   }]
 };
