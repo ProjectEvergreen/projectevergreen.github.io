@@ -6,11 +6,10 @@ jobs:
 
   build:
     runs-on: ubuntu-18.04
-    container: docker://thegreenhouse/nodejs-dev:0.4.0
 
     strategy:
       matrix:
-        node-version: [12.x]
+        node-version: [14.x]
 
     steps:
     - uses: actions/checkout@v1
@@ -18,8 +17,15 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: install, build, and test
+
+    - name: Install Dependencies
       run: |
-        yarn install && yarn lint && yarn build
-      env:
-        CI: true
+        yarn install --frozen-lockfile
+
+    - name: Lint
+      run: |
+        yarn lint
+
+    - name: Build
+      run: |
+        yarn clean && yarn build
