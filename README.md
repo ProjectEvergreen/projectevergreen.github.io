@@ -20,4 +20,4 @@ Tasks to get you going working on this project:
 - Visual Studio Code has [an extenstion to support lit-html](https://marketplace.visualstudio.com/items?itemName=bierner.lit-html)
 
 ## Release Management
-This project is managed as a GitHub page using [GitHub Actions](https://github.com/marketplace/actions/deploy-to-github-pages) to deploy it.  Everything should happen automatically on each merge into `develop`.  (since `master` is reserved for GitHub Pages per GitHub restrictions for orgs / users.)
+This project is managed as a [GitHub Page](https://pages.github.com/) using GitHub Actions to deploy it.  Everything should [happen automatically](https://github.com/ProjectEvergreen/projectevergreen.github.io/actions/workflows/pages.yml) on each merge into master.

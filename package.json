@@ -10,8 +10,7 @@
     "lint": "eslint \"*.js\" \"src/**/**/*.js\"",
     "build": "greenwood build",
     "develop": "greenwood develop",
-    "serve": "greenwood serve",
-    "pages": "rimraf ./docs && yarn build && cp -r public/ docs"
+    "serve": "greenwood serve"
   },
   "dependencies": {
     "component-simple-slider": "^0.2.0",
