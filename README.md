@@ -14,7 +14,7 @@ Tasks to get you going working on this project:
 - `yarn develop` - develop locally with live reload
 - `yarn serve` - build the app and serve it locally (good for quick demos / debugging)
 
-> _All PRs will have Netlify deploy previews setup and uses GitHub Actions for running all PRs through a Continuos Integration build._
+> _All PRs will have Netlify deploy previews setup and uses GitHub Actions for running all PRs through a Continuous Integration process._
 
 ### Misc
 - Visual Studio Code has [an extenstion to support lit-html](https://marketplace.visualstudio.com/items?itemName=bierner.lit-html)
