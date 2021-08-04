@@ -1,0 +1,395 @@
+<!DOCTYPE html><html lang="en" prefix="og:http://ogp.me/ns#">
+                        
+                        
+                          
+                          <head>
+                          <link rel="preload" href="/styles/home.19216360.css" as="style" crossorigin="anonymous"></link>
+                        
+                          <link rel="preload" href="/styles/theme.82850422.css" as="style" crossorigin="anonymous"></link>
+                        
+                        <link rel="modulepreload" href="/header.6462d527.js" as="script">
+                      
+                        <link rel="modulepreload" href="/footer.97ef3bb2.js" as="script">
+                      <!-- Shady DOM styles for x-footer --><style scope="x-footer">x-footer {
+  display: flex;   justify-content: center;   text-align: center;   padding: 2rem 0;   background-color: #192a27;
+}
+
+x-footer a.x-footer {
+  color: #fff;     text-decoration: none;
+}</style><!-- Shady DOM styles for x-simple-slider --><style scope="x-simple-slider">x-simple-slider {
+  display: block;
+          border: #1d337a solid 3px;
+          border-radius: 10px;
+          padding: 20px;
+          min-height: 475px;
+          width: 100%;
+          text-align: center;
+}
+
+x-simple-slider ul.x-simple-slider {
+  padding: 0;
+}
+
+x-simple-slider li.x-simple-slider {
+  cursor: pointer;
+          list-style: none;
+          display: inline-block;
+          padding: 10px;
+          color: #020202;
+          font-size: 1.5em;
+}
+
+x-simple-slider li.active-slot.x-simple-slider {
+  color: #168c37;
+}
+
+x-simple-slider li.x-simple-slider:hover {
+  color: #168c37;
+          font-weight: bold;
+          transition: all 250ms ease;
+}
+
+x-simple-slider div.slot.x-simple-slider {
+  display: none;
+}
+
+x-simple-slider div.active-slot.x-simple-slider {
+  display: block;
+          transition: all 3s ease;
+}</style><!-- Shady DOM styles for x-social-links-bar --><!-- Shady DOM styles for eve-social-icons --><style scope="eve-social-icons">eve-social-icons {
+  display: flex;   justify-content: space-around;   flex-direction: row;
+}
+
+eve-social-icons .icons.eve-social-icons {
+  margin: auto;
+}
+
+eve-social-icons .slack-icon.eve-social-icons {
+  padding: 0 1rem 0 1.25rem;
+}
+
+@media (max-width: 768px) {
+eve-social-icons {
+  flex-direction: row
+}
+
+}</style><!-- Shady DOM styles for x-header --><style scope="x-header">x-header {
+  display: flex;   background-color: #192a27;   font-size: 1.2rem;
+}
+
+x-header .header-text.x-header,x-header a.x-header {
+  color: #FFF;     text-decoration: none;
+}
+
+x-header #brand-header.x-header {
+  display: flex;
+}
+
+x-header header.x-header {
+  display: flex;     justify-content: space-between;     width: 100%;     padding: 2rem 4rem;
+}
+
+x-header img.x-header {
+  width: 60px;     margin: 1rem 1rem 1rem 0;
+}
+
+@media (max-width: 768px) {
+x-header header.x-header {
+  flex-direction: column;       text-align: center;       padding: 1rem;
+}
+
+x-header h2.x-header {
+  font-size: 22px;       margin-top: auto;
+}
+
+x-header img.x-header {
+  width: 30px;       margin: 0 0.5rem 0 0;
+}
+
+x-header #brand-header.x-header {
+  justify-content: center;       margin-bottom: 1rem;
+}
+
+}</style><style>body {transition: opacity ease-in 0.2s; } 
+body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; } 
+</style>
+            
+            
+        <title>Project Evergreen</title>
+        
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="description" content="The goal of Project Evergreen is to provide detailed, accessible, and practical resources 
+to those looking to build modern, dynamic, performant, and evergreen web applications.">
+<meta name="twitter:site" content="@PrjEvergreen">
+<meta name="twitter:creator" content="@PrjEvergreen">
+<meta property="og:title" content="Project Evergreen">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://projectevergreen.github.io">
+<meta property="og:image" content="https://s3.amazonaws.com/uploads.thegreenhouse.io/project-evergreen/logo.png">
+<meta property="og:description" content="The goal of Project Evergreen is to provide detailed, accessible, and practical resources 
+to those looking to build modern, dynamic, performant, and evergreen web applications.">
+<link rel="shortcut icon" href="/assets/favicon.ico">
+<link rel="icon" href="/assets/favicon.ico">
+<meta name="google-site-verification" content="rntZgfyG-5qkalTU3qnTEwZnhfJXIhFofM-wiM2Ym6I">
+
+    <link rel="stylesheet" href="/styles/theme.82850422.css">
+
+      <link rel="stylesheet" href="/styles/home.19216360.css">
+    
+    
+    <script type="module" src="/footer.97ef3bb2.js"></script>
+    <script type="module" src="/header.6462d527.js"></script>
+
+          <script type="module">import{L as e,h as t}from"/lit-element.4e4bdcd5.js";customElements.define("x-simple-slider",class extends e{constructor(){super(),this.slots=0,this.activeIndex=0}static get properties(){return{activeIndex:{type:Number,attrName:"activeIndex"},slots:{type:Number,attrName:"slots"}}}generateCarouselContent(){return new Array(this.slots).fill(null).map(((e,n)=>{const s=n===this.activeIndex?"active-slot":"slot";return t`
+        <div class="${s}"><slot .name="slide${n+1}"></slot></div>
+      `}))}generateCarouselNavigation(){return new Array(this.slots).fill(null).map(((e,n)=>{const s=n===this.activeIndex?"active-slot":"slot";return t`
+        <li class="${s}" @click=${()=>this.setActiveIndex(n)}>o</li>
+      `}))}setActiveIndex(e){this.activeIndex=e}render(){return t`
+      <style>
+        :host {
+          display: block;
+          border: #1d337a solid 3px;
+          border-radius: 10px;
+          padding: 20px;
+          min-height: 475px;
+          width: 100%;
+          text-align: center;
+        }
+
+        :host ul {
+          padding: 0;
+        }
+
+        :host li {
+          cursor: pointer;
+          list-style: none;
+          display: inline-block;
+          padding: 10px;
+          color: #020202;
+          font-size: 1.5em;
+        }
+
+        :host li.active-slot {
+          color: #168c37;
+        }
+
+        :host li:hover {
+          color: #168c37;
+          font-weight: bold;
+          transition: all 250ms ease;
+        }
+        
+        :host div.slot {
+          display: none;
+        }
+
+        :host div.active-slot {
+          display: block;
+          transition: all 3s ease;
+        }
+      </style>
+      
+      <div class="x-simple-slider">
+         ${this.generateCarouselContent()}
+         <ul>
+           ${this.generateCarouselNavigation()}
+         </ul>
+       </div>
+    `}});const n={home:[{title:"Reduce",template:"\n      <p>By leveraging more of the the web's native capabilities, application's can become more consistent, portable, and maintainable.  Reducing external dependencies\n      and being more \"vanilla\" can also provide passive improvements to performance and security.</p>\n      <br/>\n      <p><i>Favor polyfills over frameworks, but don't re-invent the wheel if you don't need to.</i></p>\n    "},{title:"Reuse",template:'\n      <p>Component based development has become a widely adopted and pragmatic approach for modern web application development.</p>\n      <br/>\n      <p>Reuse as a principal encourages the use of native "Web" components that look a lot like the components you may already be used to seeing and writing.</p>\n      <br/>\n      <a href="https://jsfiddle.net/thegreenhouseio/qjj9hvv9/1/" target="_blank" rel="noopener">\n        <img class="screenshot" src="/assets/simple-component-example.jpg" height="670px" width="960px" loading="lazy"/>\n      </a>\n    '},{title:"Recycle",template:"<p>It should be clear, the JavaScript community and ecosystem is amazing and inspiring! There are so many wonderful tools and options out there, and that's what\n      makes it so great. You pick and choose what you need when you need it.  In fact, this project wouldn't be possible without the amazing work of projects like\n      <b>Polymer</b>, <b>Babel</b>, <b>postCSS</b>, and <b>webpack</b>. ❤️</p>\n      <br/>\n      <p>We don't believe in sacrificing developer experience at the expense of writing sustainable, modern web applications. ✌️</p>\n    "}]};const s=class{static getContent(e){return n[e]?n[e]:[]}}.getContent("home"),i=document.getElementsByTagName("x-simple-slider")[0],o=s.reduce(((e,t,n)=>e+`\n          <div slot="slide${n+1}"><h3>${t.title}</h3>${t.template}</div>\n        `),"");i.setAttribute("slots",s.length),i.innerHTML=o</script>
+
+        
+  
+          <link rel="preconnect" href="https://www.google-analytics.com/">
+          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117350131-2"></script>
+          <script>
+            var getOutboundLink = function(url) {
+              gtag('event', 'click', {
+                'event_category': 'outbound',
+                'event_label': url,
+                'transport_type': 'beacon'
+              });
+            }
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-117350131-2', { 'anonymize_ip': true });
+            gtag('config', 'UA-117350131-2');
+          </script>
+        </head>
+        
+
+  <body>
+    <main class="wrapper">
+
+      <section class="header-container">
+        <x-header><!---->
+      
+
+      <header class="style-scope x-header">
+        <div id="brand-header" class="style-scope x-header">
+          <div class="style-scope x-header">
+            <img src="/assets/evergreen.svg" alt="project evergreen logo" height="60px" width="60px" class="style-scope x-header">
+          </div>
+          <h2 class="header-text style-scope x-header">
+            Project Evergreen
+          </h2>
+        </div>
+        <eve-social-icons class="style-scope x-header"><!---->
+      
+
+      <a class="icons style-scope eve-social-icons" target="_blank" rel="noreferrer noopener" aria-label="open github page" href="https://github.com/ProjectEvergreen"><!----><svg height="35" viewBox="0 0 16 16" version="1.1" width="35" aria-hidden="true" class="style-scope eve-social-icons">
+    <path fill-rule="evenodd" fill="white" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01
+      1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+      0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82
+      2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65
+      3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013
+      8.013 0 0016 8c0-4.42-3.58-8-8-8z" class="style-scope eve-social-icons">
+    </path>
+  </svg><!----></a>
+
+      <a class="icons slack-icon style-scope eve-social-icons" target="_blank" rel="noreferrer noopener" aria-label="slack" href="https://join.slack.com/t/thegreenhouseio/shared_invite/enQtMzcyMzE2Mjk1MjgwLTU5YmM1MDJiMTg0ODk4MjA4NzUwNWFmZmMxNDY5MTcwM2I0MjYxN2VhOTEwNDU2YWQwOWQzZmY1YzY4MWRlOGI"><!----><svg width="35" height="35" style="fill:white;" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg" class="style-scope eve-social-icons">
+    <g fill="none" fill-rule="evenodd" class="style-scope eve-social-icons">
+      <path d="M19.712.133a5.381 5.381 0 0 0-5.376 5.387 5.381 5.381 0 0 0 5.376
+        5.386h5.376V5.52A5.381 5.381 0 0 0 19.712.133m0 14.365H5.376A5.381
+        5.381 0 0 0 0 19.884a5.381 5.381 0 0 0 5.376 5.387h14.336a5.381 5.381
+        0 0 0 5.376-5.387 5.381 5.381 0 0 0-5.376-5.386" fill="#fff" class="style-scope eve-social-icons"></path>
+      <path d="M53.76 19.884a5.381 5.381 0 0 0-5.376-5.386 5.381 5.381 0 0 0-5.376
+        5.386v5.387h5.376a5.381 5.381 0 0 0 5.376-5.387m-14.336 0V5.52A5.381 5.381
+        0 0 0 34.048.133a5.381 5.381 0 0 0-5.376 5.387v14.364a5.381 5.381 0 0 0
+        5.376 5.387 5.381 5.381 0 0 0 5.376-5.387" fill="#fff" class="style-scope eve-social-icons"></path>
+      <path d="M34.048 54a5.381 5.381 0 0 0 5.376-5.387 5.381 5.381 0 0
+        0-5.376-5.386h-5.376v5.386A5.381 5.381 0 0 0 34.048 54m0-14.365h14.336a5.381
+        5.381 0 0 0 5.376-5.386 5.381 5.381 0 0 0-5.376-5.387H34.048a5.381 5.381
+        0 0 0-5.376 5.387 5.381 5.381 0 0 0 5.376 5.386" fill="#fff" class="style-scope eve-social-icons"></path>
+      <path d="M0 34.249a5.381 5.381 0 0 0 5.376 5.386 5.381 5.381 0 0 0
+        5.376-5.386v-5.387H5.376A5.381 5.381 0 0 0 0 34.25m14.336-.001v14.364A5.381
+        5.381 0 0 0 19.712 54a5.381 5.381 0 0 0 5.376-5.387V34.25a5.381 5.381
+        0 0 0-5.376-5.387 5.381 5.381 0 0 0-5.376 5.387" fill="#fff" class="style-scope eve-social-icons"></path>
+    </g>
+  </svg><!----></a>
+
+      <a class="icons style-scope eve-social-icons" target="_blank" rel="noreferrer noopener" aria-label="open twitter page" href="https://twitter.com/PrjEvergreen"><!----><!--?xml version="1.0" ?-->
+  
+  <svg enable-background="new 0 0 56.693 56.693" height="40px" id="Layer_1" version="1.1" viewBox="0 0 56.693 56.693" width="40px" fill="white" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="style-scope eve-social-icons">
+      <path d="M28.348,5.157c-13.6,0-24.625,11.027-24.625,24.625c0,13.6,11.025,24.623,24.625,24.623c13.6,0,24.623-11.023,24.623-24.623
+        C52.971,16.184,41.947,5.157,28.348,5.157z M40.752,24.817c0.013,0.266,0.018,0.533,0.018,0.803c0,8.201-6.242,17.656-17.656,17.656
+        c-3.504,0-6.767-1.027-9.513-2.787c0.486,0.057,0.979,0.086,1.48,0.086c2.908,0,5.584-0.992,7.707-2.656
+        c-2.715-0.051-5.006-1.846-5.796-4.311c0.378,0.074,0.767,0.111,1.167,0.111c0.566,0,1.114-0.074,1.635-0.217
+        c-2.84-0.57-4.979-3.08-4.979-6.084c0-0.027,0-0.053,0.001-0.08c0.836,0.465,1.793,0.744,2.811,0.777
+        c-1.666-1.115-2.761-3.012-2.761-5.166c0-1.137,0.306-2.204,0.84-3.12c3.061,3.754,7.634,6.225,12.792,6.483
+        c-0.106-0.453-0.161-0.928-0.161-1.414c0-3.426,2.778-6.205,6.206-6.205c1.785,0,3.397,0.754,4.529,1.959
+        c1.414-0.277,2.742-0.795,3.941-1.506c-0.465,1.45-1.448,2.666-2.73,3.433c1.257-0.15,2.453-0.484,3.565-0.977
+        C43.018,22.849,41.965,23.942,40.752,24.817z" class="style-scope eve-social-icons"></path>
+  </svg><!----></a>
+    <!----></eve-social-icons>
+      </header>
+    <!----></x-header>
+      </section>
+
+      <section>
+        <nav>
+          <ul>
+            <li>
+              <a href="/" title="Home page">Home</a>
+            </li>
+            <li>
+              <a href="/projects/" title="Projects page">Projects</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+
+      <section class="content">
+        
+    <div>
+      
+      <div class="content-banner">
+        <p>The goal of <b class="project-name">Project Evergreen</b> is to provide detailed, accessible, and practical resources to those looking to build
+        modern, dynamic, performant, and <b><i>evergreen</i></b> web applications.</p>
+
+        <br>
+        <br>
+
+        <span><i>With the rise of evergreen browsers, we see an opportunity for evergreen web applications, and we think that's pretty cool!</i></span>
+      </div>
+
+      <div class="content-body">
+        <x-simple-slider slots="3"><!---->
+      
+      
+      <div class="x-simple-slider style-scope">
+         <!---->
+        <div class="active-slot style-scope x-simple-slider"><div slot="slide1"><h3>Reduce</h3>
+      <p>By leveraging more of the the web's native capabilities, application's can become more consistent, portable, and maintainable.  Reducing external dependencies
+      and being more "vanilla" can also provide passive improvements to performance and security.</p>
+      <br>
+      <p><i>Favor polyfills over frameworks, but don't re-invent the wheel if you don't need to.</i></p>
+    </div></div>
+      <!---->
+        <div class="slot style-scope x-simple-slider"><div slot="slide2"><h3>Reuse</h3>
+      <p>Component based development has become a widely adopted and pragmatic approach for modern web application development.</p>
+      <br>
+      <p>Reuse as a principal encourages the use of native "Web" components that look a lot like the components you may already be used to seeing and writing.</p>
+      <br>
+      <a href="https://jsfiddle.net/thegreenhouseio/qjj9hvv9/1/" target="_blank" rel="noopener">
+        <img class="screenshot" src="/assets/simple-component-example.jpg" height="670px" width="960px" loading="lazy">
+      </a>
+    </div></div>
+      <!---->
+        <div class="slot style-scope x-simple-slider"><div slot="slide3"><h3>Recycle</h3><p>It should be clear, the JavaScript community and ecosystem is amazing and inspiring! There are so many wonderful tools and options out there, and that's what
+      makes it so great. You pick and choose what you need when you need it.  In fact, this project wouldn't be possible without the amazing work of projects like
+      <b>Polymer</b>, <b>Babel</b>, <b>postCSS</b>, and <b>webpack</b>. ❤️</p>
+      <br>
+      <p>We don't believe in sacrificing developer experience at the expense of writing sustainable, modern web applications. ✌️</p>
+    </div></div>
+      <!---->
+         <ul class="style-scope x-simple-slider">
+           <!---->
+        <li class="active-slot style-scope x-simple-slider">o</li>
+      <!---->
+        <li class="slot style-scope x-simple-slider">o</li>
+      <!---->
+        <li class="slot style-scope x-simple-slider">o</li>
+      <!---->
+         </ul>
+       </div>
+    <!----></x-simple-slider>
+      </div>
+
+      <div class="content-banner">
+        <p>The project's motivations are rooted in the fundamental belief that when applications are written with standards compliance in mind, we can maximize the <i>experience</i> for
+        users, developers, and businesses.</p>
+      </div>
+
+      <div class="content-footer">
+        <h4><u>For more information:</u></h4>
+        <br>
+        <p>Read <a href="https://github.com/ProjectEvergreen/project-evergreen/wiki" target="_blank" rel="noopener">our docs and how you can get started!</a></p><p>
+
+        </p><p>Review our <a href="https://github.com/ProjectEvergreen/project-evergreen/milestones" target="_blank" rel="noopener">roadmap</a> and help contribute to our project!</p>
+
+        <p>For code and starter apps, checkout our <a href="https://github.com/ProjectEvergreen" target="_blank" rel="noopener">GitHub repos</a> which you can read,
+        tinker with, and try out yourself!</p>
+      </div>
+
+    </div>
+  
+      </section>
+
+      <section>
+        <x-footer><!---->
+      
+
+      <footer class="style-scope x-footer">
+        <a href="https://projectevergreen.github.io/" class="style-scope x-footer">© Project Evergreen 2021<!----></a>
+      </footer>
+    <!----></x-footer>
+      </section>
+    </main>
+    
+  
+</body></html>
