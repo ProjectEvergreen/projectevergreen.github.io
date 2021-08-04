@@ -21,7 +21,7 @@ module.exports = {
     { property: 'og:description', content: META_DESCRIPTION },
     { rel: 'shortcut icon', href: FAVICON_HREF },
     { rel: 'icon', href: FAVICON_HREF },
-    { name: 'google-site-verification', content: 'rntZgfyG-5qkalTU3qnTEwZnhfJXIhFofM-wiM2Ym6I' }
+    { name: 'google-site-verification', content: 'KWcqT8r7R4bo7MjTwPtmAsZ079gqb7wAXeFkIJQJzs0' }
   ],
 
   plugins: [
@@ -30,7 +30,7 @@ module.exports = {
     ...pluginImportCss(),
 
     pluginGoogleAnalytics({
-      analyticsId: 'UA-117350131-2'
+      analyticsId: 'UA-147204327-2'
     })
   ]
 
