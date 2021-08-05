@@ -22,11 +22,10 @@ const content = {
   }, {
     title: 'Recycle',
     template: `<p>It should be clear, the JavaScript community and ecosystem is amazing and inspiring! There are so many wonderful tools and options out there, and that's what
-      makes it so great. You pick and choose what you need when you need it.  In fact, it is the open source JavaScript community that inspires us so much.  We all have more in common
-      than we do apart. ❤️</p>
+      makes it so great. We always endorse using the right tool for the job, but favor those that promote positive choices around web standards.  <i>We often have more in common
+      than we do apart</i>.</p>
       <br/>
       <img class="screenshot" src="/assets/community.png" loading="lazy"/>
-      <p>We don't believe in sacrificing any experiences in the pursuit of writing modern web sites and apps.  Where there is a will, there is a way. ✌️</p>
     `
   }]
 };
