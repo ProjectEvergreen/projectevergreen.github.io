@@ -4,8 +4,8 @@ template: 'blog'
 
 # Always Bet On ~~JavaScript~~ HTML 😎
 
-#### By: [Owen Buckley](https://www.thegreenhouse.io/)
-#### Date: MM/DD/YYYY
+#### By: [Owen Buckley (@thescientist13)](https://github.com/thescientist13)
+#### Date: August 6th, 2021
 
 ## There and Back Again
 
@@ -13,9 +13,7 @@ Like many in the frontend web development community, I find myself writing a _lo
 
 I love writing JavaScript and it has been fundamental to the work I've done throughout my career.  However, I recently found that even with my own best intentions, I could lead myself astray and get caught up in the tools and technologies that have so come to dominate the landscape today.  But as it turned out, I think it was all for the best as through it all, I was able to gain a greater connection with what I love about developing for the web and why, after all these years, I have come to love it even more.  
 
-I would like to share this recent journey in rediscovering my appreciation for the web and with it, a renewed sense of focus and purpose towards contributing to its growth and most importantly, being a better steward to all its diverse sets of users.
-
-<!-- friendly illustration or graphic would be great here! bigger picture? -->
+I would like to share with you now this recent journey and how going forward, I plan on being a better steward for the web and its diverse sets of users.
 
 > Yeah, JavaScript is cool, but have you ever built your website in HTML before?
 
@@ -24,7 +22,7 @@ I would like to share this recent journey in rediscovering my appreciation for t
 
 Around the middle of 2020, I was in a position where some of the technical decisions on [a project](https://docs.google.com/document/d/1MwDkszKvq81QgIYa8utJgyUgSpLZQx9eKCWjIikvfHU) I had been working on were starting to catch up with me.  Initially I had opted to build on top of another tool that I had used a lot throughout my career.  While it had certainly allowed for a great amount of speed and momentum in the early stages of this project, I realized in trying to see if I could bend it further to help solve another problem I was having, that I might be going about things the wrong way.  This pause for reflection and investigation not only helped snap me out of this comfortable "tooling" bubble I had come to find myself in, but that more fundamentally, I needed to step back and reassess assumptions I was making about what modern day web development should look like in the first place.
 
-As I zoomed out and took stock of the frontend ecosystem, I was seeing more and more that there was a rise in tools that were (self-labeled or not) [_meta frameworks_](https://en.wiktionary.org/wiki/metaframework), which meant that they were stitching together a handful of tools to achieve a new product from that.  In some cases, tools even built themselves _on top_ of these meta frameworks!  These new "domain" specific solutions were often designed to be JavaScript or [DSL](https://en.wikipedia.org/wiki/Domain-specific_language) centric in terms of how they presented the development experience, and usually aligned to a specific frontend framework or library. (Or multiple, in some cases!)  
+As I zoomed out and took stock of the frontend development ecosystem, I was seeing more and more that there was a rise in tools that were (self-applied or not) [_meta frameworks_](https://en.wiktionary.org/wiki/metaframework), which meant that they were stitching together a handful of tools to achieve a new product from that.  In some cases, tools even built themselves _on top_ of these meta frameworks!  These new "domain" specific solutions were often designed to be JavaScript or [DSL](https://en.wikipedia.org/wiki/Domain-specific_language) centric in terms of how they presented the development experience, and usually aligned to a specific frontend framework or library. (Or multiple, in some cases!)
 
 So, before you could even get going you would have to learn:
 - JavaScript
@@ -39,7 +37,7 @@ Phew, seems like a lot of work!  😅
 
 > In essence, these kinds of tools incur upon themselves and their users not only the managed complexity and roadmap of all those underlying tools, but also the knot of the bow they use to tie it all together.
 
-Now, I'm not saying that these types of projects don't have their uses cases, but this one-two punch of a trend stuck out to me, even for trivial tasks like creating a basic static website!  For my own project, which is in the category of being a site builder, it was never my intention to go down any of those routes necessarily and so in this moment of clarity, I realized I had been missing the bigger picture of what I had set out to achieve in the first place.  Worse, that I was committing not only developers to undo points of friction with my approach, but also their end users.  These trends I had grown with throughout my career and had taken for granted were laid more bare than ever before, but thankfully, now with a choice much clearer than before.  
+Now, I'm not saying that these types of projects don't have their uses cases, but this one-two punch of a trend stuck out to me, even for trivial tasks like creating a basic static website!  For my own project, which is in the category of being a site builder, it was never my intention to go down any of those routes necessarily and so in this moment of clarity, I realized I had been missing the bigger picture of what I had set out to achieve in the first place.  Worse, that I was committing not only developers to undo points of friction with my approach, but also their end users as well.  These trends I had grown with throughout my career and had taken for granted were laid more bare than ever before, but thankfully, now with a choice much clearer than before.
 
 I thought about how I could produce an experience more aligned with how we all relate to and consume the web already.  So, like a great band long into their career, with their greatest hits already behind them perhaps, I found inspiration in going [back to the basics](https://github.com/thescientist13/nono-poc/blob/master/notes/DOCS.md).
 
