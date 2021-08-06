@@ -17,7 +17,7 @@ Tasks to get you going working on this project:
 > _All PRs will have Netlify deploy previews setup and uses GitHub Actions for running all PRs through a Continuous Integration process._
 
 ### Misc
-- Visual Studio Code has [an extenstion to support lit-html](https://marketplace.visualstudio.com/items?itemName=bierner.lit-html)
+- Visual Studio Code has [an extension to support lit-html](https://marketplace.visualstudio.com/items?itemName=bierner.lit-html)
 
 ## Release Management
-This project is managed as a [GitHub Page](https://pages.github.com/) using GitHub Actions to deploy it.  Everything should [happen automatically](https://github.com/ProjectEvergreen/projectevergreen.github.io/actions/workflows/pages.yml) on each merge into master.
+This project is managed as a [GitHub Page](https://pages.github.com/) using GitHub Actions to deploy it.  Everything should [build and publish automatically](https://github.com/ProjectEvergreen/projectevergreen.github.io/actions/workflows/pages.yml) on each merge into master.
