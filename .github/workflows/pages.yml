@@ -9,34 +9,24 @@ jobs:
 
   build-and-deploy:
     runs-on: ubuntu-18.04
-    container: docker://thegreenhouse/nodejs-dev:0.4.0
   
-    strategy:
-      matrix:
-        node-version: [12.x]
-
     steps:
-    - name: Checkout
-      uses: actions/checkout@master
-
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
       with:
-        node-version: ${{ matrix.node-version }}
+        node-version: 14.x
 
-    - name: Yarn install
+    - name: Install Dependencies
       run: |
         yarn install --frozen-lockfile
 
-    - name: Yarn Build
+    - name: Build
       run: |
-        yarn lint && yarn build
+        yarn clean && yarn build
 
-    # - name: Build and Deploy
-    #   uses: JamesIves/github-pages-deploy-action@releases/v2
-    #   env:
-    #     ACCESS_TOKEN: ${{ secrets.GITHUB_PAGES }}
-    #     BASE_BRANCH: master # The branch the action should deploy from.
-    #     BRANCH: master # The branch the action should deploy to.
-    #     FOLDER: docs # The folder the action should deploy.
-    #     BUILD_SCRIPT: yarn install && yarn build && yarn pages # The build script the action should run prior to deploying.
+    - name: Deploy GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      if: ${{ github.ref == 'refs/heads/master' }}
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
