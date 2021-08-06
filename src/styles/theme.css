@@ -17,17 +17,38 @@
   background-color: #192a27;
 }
 
+.content {
+  max-width: 60ch;
+  padding: 3rem 0;
+  margin: auto;
+  min-height: 60vh;
+}
+
 nav, nav a {
   color: white;
   background-color: #192a27;
   text-align: center;
 }
 
-nav ul {
+ul {
   list-style-type: none;
 }
 
-nav li {
+nav ul {
+  padding: 0;
+}
+
+nav ul li {
   display: inline-block;
   padding: 0 10px 10px;
+}
+
+nav ul li a {
+  font-size: 1.2rem;
+}
+
+@media(max-width: 768px) {
+  .content {
+    padding: 1rem;
+  }
 }
