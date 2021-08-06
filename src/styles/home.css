@@ -9,7 +9,7 @@
   }
 
   & .content-banner {
-    padding: 4rem 0;
+    padding: 2rem 0;
     background: #fff;
     color: #192a27;
     margin:auto;
@@ -43,7 +43,8 @@
 
   & img.screenshot {
     display: inline-block;
-    width: 100%;
+    width: 80%;
+    max-width: 70%;
   }
 
   & h4 {

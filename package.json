@@ -1,7 +1,7 @@
 {
   "name": "projectevergreen.github.io",
   "version": "0.3.0",
-  "description": "Website repository for Project Evergreen.",
+  "description": "Website repository for the main Project Evergreen website.",
   "repository": "git@github.com:project-evergreen/projectevergreen.github.io.git",
   "author": "Owen Buckley <owen@thegreenhouse.io>",
   "license": "Apache-2.0",
