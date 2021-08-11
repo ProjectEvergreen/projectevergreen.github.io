@@ -44,10 +44,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@greenwood/cli@^0.15.0":
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/@greenwood/cli/-/cli-0.15.0.tgz#8dfc108a3d977fac3e3a6d4bed4ba2fd23d0eb3d"
-  integrity sha512-OyABMwXVofRCUPZHJ7AftJDb+pCe1y+aYmcTrCO2cdfX2hyXQO3UbCv40aUX3p4dwmFd6nzd56/DIsj+Rz3I9A==
+"@greenwood/cli@^0.15.2":
+  version "0.15.2"
+  resolved "https://registry.yarnpkg.com/@greenwood/cli/-/cli-0.15.2.tgz#e55ab085df3e9283f8b8013a72f6355d7be0c99b"
+  integrity sha512-wukxAstTLv4PZ+yqXQUqEtvBFQuQobEAQexq3x28+7n5fzcgrxrrrRg2/9hungY0OKTMI7uv6lZHS4LurOp6Cw==
   dependencies:
     "@rollup/plugin-node-resolve" "^9.0.0"
     "@rollup/plugin-replace" "^2.3.4"
@@ -74,22 +74,22 @@
     rollup-plugin-terser "^7.0.0"
     unified "^9.2.0"
 
-"@greenwood/plugin-google-analytics@^0.15.0":
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/@greenwood/plugin-google-analytics/-/plugin-google-analytics-0.15.0.tgz#1fd902405717a4a49b7dfff264fd25e99c740fe7"
-  integrity sha512-xoi+EajQoGtSIvrItQ/kBQhHNfsOObZZX0N8F9icK1wPxZ06FZSM1CapzkBLlQktuO+XD2qp8w0/qi4JRtHO2g==
+"@greenwood/plugin-google-analytics@^0.15.2":
+  version "0.15.2"
+  resolved "https://registry.yarnpkg.com/@greenwood/plugin-google-analytics/-/plugin-google-analytics-0.15.2.tgz#ea26ad873d322498119344ac6db262e422eebd13"
+  integrity sha512-5iogPKGwRXIXw4ZveZDNhW7jwjRLVmzBAqiywe1wmfWPNwTUBYASbCsm2knRFJKaq1o7/9bzrSDARrMhFdBUWg==
 
-"@greenwood/plugin-import-css@^0.15.0":
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/@greenwood/plugin-import-css/-/plugin-import-css-0.15.0.tgz#5ddeeedd1c96adc9fb2c91f55b5e4be16e218a72"
-  integrity sha512-BE5WCFypfPawivLlfDWA1VBZSlp04IlPSizUOyfvihBfXomU/oky5ca6Pi3GlXDGlvcn40gvvCGjn6cC/ZbKSg==
+"@greenwood/plugin-import-css@^0.15.2":
+  version "0.15.2"
+  resolved "https://registry.yarnpkg.com/@greenwood/plugin-import-css/-/plugin-import-css-0.15.2.tgz#25823d6091df30aa161e53db2acfb7136e38c801"
+  integrity sha512-5THMko/aAnnhMA8P3ZxGfRYBJ2tkS9SoI8XFGkeQPx47Js8VAenabrk0243Z41JFp46SjauQhUQ36Tm8JZtKEA==
   dependencies:
     rollup-plugin-postcss "^3.1.5"
 
-"@greenwood/plugin-postcss@^0.15.0":
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/@greenwood/plugin-postcss/-/plugin-postcss-0.15.0.tgz#2adecca4792069af81ad2923a9e5eb82926f2ee0"
-  integrity sha512-5L2lRQ52ndWiSGxUyGFKjFRClxGHdf674wCI3lDVqxtB7ghjJTs6nDG/Qxu2Ve6sTnEYiTYj2QMCBaY8dOOdxA==
+"@greenwood/plugin-postcss@^0.15.2":
+  version "0.15.2"
+  resolved "https://registry.yarnpkg.com/@greenwood/plugin-postcss/-/plugin-postcss-0.15.2.tgz#7ca6d75beb5d415530d7f893176deec8afe099ed"
+  integrity sha512-ZCzqCqNmg+OSDH+dSWRm6WjvOW68XjgNYTfw8HoTGNpwFVb90ShImUvt83wr7+t37br9Uf4bvS0EnJ6bWPoVMA==
   dependencies:
     postcss-preset-env "^6.7.0"
 
