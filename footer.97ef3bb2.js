@@ -7,3 +7,4 @@ import{L as e,h as t}from"./lit-element.4e4bdcd5.js";customElements.define("x-fo
         <a href="https://projectevergreen.github.io/">&copy; Project Evergreen ${(new Date).getFullYear()}</a>
       </footer>
     `}});
+//# sourceMappingURL=footer.97ef3bb2.js.map

@@ -10,7 +10,13 @@
                         <link rel="modulepreload" href="/header.6462d527.js" as="script">
                       
                         <link rel="modulepreload" href="/footer.97ef3bb2.js" as="script">
-                      <!-- Shady DOM styles for x-simple-slider --><style scope="x-simple-slider">x-simple-slider {
+                      <!-- Shady DOM styles for x-footer --><style scope="x-footer">x-footer {
+  display: flex;   justify-content: center;   text-align: center;   padding: 2rem 0;   background-color: #192a27;
+}
+
+x-footer a.x-footer {
+  color: #fff;     text-decoration: none;
+}</style><!-- Shady DOM styles for x-simple-slider --><style scope="x-simple-slider">x-simple-slider {
   display: block;
           border: #1d337a solid 3px;
           border-radius: 10px;
@@ -104,12 +110,6 @@ x-header #brand-header.x-header {
   justify-content: center;       margin-bottom: 1rem;
 }
 
-}</style><!-- Shady DOM styles for x-footer --><style scope="x-footer">x-footer {
-  display: flex;   justify-content: center;   text-align: center;   padding: 2rem 0;   background-color: #192a27;
-}
-
-x-footer a.x-footer {
-  color: #fff;     text-decoration: none;
 }</style><style>body {transition: opacity ease-in 0.2s; } 
 body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; } 
 </style>
@@ -198,7 +198,8 @@ to those looking to build modern, dynamic, performant, and evergreen web applica
            ${this.generateCarouselNavigation()}
          </ul>
        </div>
-    `}});const s={home:[{title:"Reduce",template:'\n      <p>By leveraging more of the the web\'s native capabilities, application\'s can become more consistent, portable, and maintainable.  Reducing external dependencies\n      and being more "vanilla" can also provide passive improvements to performance and security.</p>\n      <br/>\n      <img class="screenshot" src="/assets/wheel.jpg" loading="lazy"/>\n      <p><i>Favor polyfills over frameworks, but don\'t re-invent the wheel if you don\'t need to.</i></p>\n    '},{title:"Reuse",template:'\n      <p>Component based development has become a widely adopted and pragmatic approach in modern web application development.</p>\n      <br/>\n      <p>Reuse is encouraged through the use of native "Web" components that look a lot like the components you may already be used to seeing and writing.</p>\n      <br/>\n      <a href="https://jsfiddle.net/thegreenhouseio/qjj9hvv9/1/" target="_blank" rel="noopener">\n        <img class="screenshot" src="/assets/simple-component-example.jpg" loading="lazy"/>\n      </a>\n    '},{title:"Recycle",template:'<p>It should be clear, the JavaScript community and ecosystem is amazing and inspiring! There are so many wonderful tools and options out there, and that\'s what\n      makes it so great. We always endorse using the right tool for the job, but favor those that promote positive choices around web standards.  <i>We often have more in common\n      than we do apart</i>.</p>\n      <br/>\n      <img class="screenshot" src="/assets/community.png" loading="lazy"/>\n    '}]};const n=class{static getContent(e){return s[e]?s[e]:[]}}.getContent("home"),o=document.getElementsByTagName("x-simple-slider")[0],a=n.reduce(((e,t,s)=>e+`\n          <div slot="slide${s+1}"><h3>${t.title}</h3>${t.template}</div>\n        `),"");o.setAttribute("slots",n.length),o.innerHTML=a</script>
+    `}});const s={home:[{title:"Reduce",template:'\n      <p>By leveraging more of the the web\'s native capabilities, application\'s can become more consistent, portable, and maintainable.  Reducing external dependencies\n      and being more "vanilla" can also provide passive improvements to performance and security.</p>\n      <br/>\n      <img class="screenshot" src="/assets/wheel.jpg" loading="lazy"/>\n      <p><i>Favor polyfills over frameworks, but don\'t re-invent the wheel if you don\'t need to.</i></p>\n    '},{title:"Reuse",template:'\n      <p>Component based development has become a widely adopted and pragmatic approach in modern web application development.</p>\n      <br/>\n      <p>Reuse is encouraged through the use of native "Web" components that look a lot like the components you may already be used to seeing and writing.</p>\n      <br/>\n      <a href="https://jsfiddle.net/thegreenhouseio/qjj9hvv9/1/" target="_blank" rel="noopener">\n        <img class="screenshot" src="/assets/simple-component-example.jpg" loading="lazy"/>\n      </a>\n    '},{title:"Recycle",template:'<p>It should be clear, the JavaScript community and ecosystem is amazing and inspiring! There are so many wonderful tools and options out there, and that\'s what\n      makes it so great. We always endorse using the right tool for the job, but favor those that promote positive choices around web standards.  <i>We often have more in common\n      than we do apart</i>.</p>\n      <br/>\n      <img class="screenshot" src="/assets/community.png" loading="lazy"/>\n    '}]};const n=class{static getContent(e){return s[e]?s[e]:[]}}.getContent("home"),o=document.getElementsByTagName("x-simple-slider")[0],a=n.reduce(((e,t,s)=>e+`\n          <div slot="slide${s+1}"><h3>${t.title}</h3>${t.template}</div>\n        `),"");o.setAttribute("slots",n.length),o.innerHTML=a//# sourceMappingURL=1432965434-scratch.b93b52a3.js.map
+</script>
 
         
   
