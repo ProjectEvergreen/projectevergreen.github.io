@@ -17,7 +17,7 @@ module.exports = {
     { property: 'og:title', content: 'Project Evergreen' },
     { property: 'og:type', content: 'website' },
     { property: 'og:url', content: 'https://projectevergreen.github.io' },
-    { property: 'og:image', content: 'https://s3.amazonaws.com/uploads.thegreenhouse.io/project-evergreen/logo.png' },
+    { property: 'og:image', content: 'https://projectevergreen.github.io/assets/evergreen-logo.png' },
     { property: 'og:description', content: META_DESCRIPTION },
     { rel: 'shortcut icon', href: FAVICON_HREF },
     { rel: 'icon', href: FAVICON_HREF },
