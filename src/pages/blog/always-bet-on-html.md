@@ -1,4 +1,5 @@
 ---
+title: 'Always Bet On HTML'
 template: 'blog'
 ---
 
