@@ -4,8 +4,7 @@ const pluginPostCss = require('@greenwood/plugin-postcss');
 
 const FAVICON_HREF = '/assets/favicon.ico';
 const HANDLE = '@PrjEvergreen';
-const META_DESCRIPTION = `The goal of Project Evergreen is to provide detailed, accessible, and practical resources 
-to those looking to build modern, dynamic, performant, and evergreen web applications.`;
+const META_DESCRIPTION = 'Project Evergreen\'s goal is to help everyone succeed in making a modern website or application using the latest in web standards and technologies.';
 
 module.exports = {
   title: 'Project Evergreen',
