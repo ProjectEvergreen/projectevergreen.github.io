@@ -17,10 +17,10 @@
     "lit-element": "^2.4.0"
   },
   "devDependencies": {
-    "@greenwood/cli": "^0.18.0",
-    "@greenwood/plugin-google-analytics": "^0.18.0",
-    "@greenwood/plugin-import-css": "^0.18.0",
-    "@greenwood/plugin-postcss": "^0.18.0",
+    "@greenwood/cli": "^0.19.0-alpha.2",
+    "@greenwood/plugin-google-analytics": "^0.19.0-alpha.2",
+    "@greenwood/plugin-import-css": "^0.19.0-alpha.2",
+    "@greenwood/plugin-postcss": "^0.19.0-alpha.2",
     "eslint": "^6.6.0",
     "postcss-nested": "^4.1.2",
     "rimraf": "^3.0.0"
