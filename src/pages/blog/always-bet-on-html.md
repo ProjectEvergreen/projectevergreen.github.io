@@ -67,13 +67,11 @@ The more I looked around, the more I found [the web was starting to become much 
 
 I think the main reason I chose to share this experience is that through all this, I've been greatly inspired by a lot of the work and projects in the JavaScript ecosystem, each with their own unique solutions and audiences, and how fantastic it all is to have such a sheer amount of creativity and talent to draw inspiration from.  I think we're arriving at a great inflection point where the good, if not the best parts of that experience are starting to come for free from the browser.  With that, we can come to rely less on layers of tools and abstractions between us and the code and content we create.  At the end of the day, productivity and maintainability are critical factors to consider in ensuring one can quickly go from idea to implementation.
 
-As technologists, we owe it to all users out there to make pragmatic and useful decisions that are context and environment aware and make the most about the knowledge of the problem at hand. (More on that [coming soon](https://twitter.com/ReliableSummit/status/1418694662374625283)!)  We should take care to ensure that the long-term beneficiaries of our work extend well past not just what is what most convenient for _us_ in the moment.
+As technologists, we owe it to all users out there to make pragmatic and useful decisions that are context and environment aware and make the most about the knowledge of the problem at hand. (More on that [coming soon](https://twitter.com/ReliableSummit/status/1418694662374625283)!)  We should take care to ensure that the long-term beneficiaries of our work extend well past not just what is most convenient for _us_ in the moment.
 
 **I hope everyone goes out there and builds what their most passionate about.  Choose wisely, keep it simple, and have fun!**  ✌️
 
 <span>- Owen</span>
-
-<!-- friendly illustration or graphic would be great here! -->
 
 ----
 
