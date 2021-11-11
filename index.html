@@ -10,13 +10,7 @@
                         <link rel="modulepreload" href="/header.6462d527.js" as="script">
                       
                         <link rel="modulepreload" href="/footer.97ef3bb2.js" as="script">
-                      <!-- Shady DOM styles for x-footer --><style scope="x-footer">x-footer {
-  display: flex;   justify-content: center;   text-align: center;   padding: 2rem 0;   background-color: #192a27;
-}
-
-x-footer a.x-footer {
-  color: #fff;     text-decoration: none;
-}</style><!-- Shady DOM styles for x-simple-slider --><style scope="x-simple-slider">x-simple-slider {
+                      <!-- Shady DOM styles for x-simple-slider --><style scope="x-simple-slider">x-simple-slider {
   display: block;
           border: #1d337a solid 3px;
           border-radius: 10px;
@@ -56,6 +50,12 @@ x-simple-slider div.slot.x-simple-slider {
 x-simple-slider div.active-slot.x-simple-slider {
   display: block;
           transition: all 3s ease;
+}</style><!-- Shady DOM styles for x-footer --><style scope="x-footer">x-footer {
+  display: flex;   justify-content: center;   text-align: center;   padding: 2rem 0;   background-color: #192a27;
+}
+
+x-footer a.x-footer {
+  color: #fff;     text-decoration: none;
 }</style><!-- Shady DOM styles for x-social-links-bar --><!-- Shady DOM styles for eve-social-icons --><style scope="eve-social-icons">eve-social-icons {
   display: flex;   justify-content: space-around;   flex-direction: row;
 }
@@ -136,12 +136,13 @@ body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relati
 
     <link rel="stylesheet" href="/styles/theme.19502286.css">
 
-        <link rel="stylesheet" href="/styles/home.10486483.css">
-      
+          <link rel="stylesheet" href="/styles/home.10486483.css">
+        
     
     <script type="module" src="/footer.97ef3bb2.js"></script>
     <script type="module" src="/header.6462d527.js"></script>
 
+          
             <script type="module">import{L as e,h as t}from"/lit-element.4e4bdcd5.js";customElements.define("x-simple-slider",class extends e{constructor(){super(),this.slots=0,this.activeIndex=0}static get properties(){return{activeIndex:{type:Number,attrName:"activeIndex"},slots:{type:Number,attrName:"slots"}}}generateCarouselContent(){return new Array(this.slots).fill(null).map(((e,s)=>{const n=s===this.activeIndex?"active-slot":"slot";return t`
         <div class="${n}"><slot .name="slide${s+1}"></slot></div>
       `}))}generateCarouselNavigation(){return new Array(this.slots).fill(null).map(((e,s)=>{const n=s===this.activeIndex?"active-slot":"slot";return t`
@@ -199,8 +200,8 @@ body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relati
        </div>
     `}});const s={home:[{title:"Reduce",template:'\n      <p>By leveraging more of the the web\'s native capabilities, application\'s can become more consistent, portable, and maintainable.  Reducing external dependencies\n      and being more "vanilla" can also provide passive improvements to performance and security.</p>\n      <br/>\n      <img class="screenshot" src="/assets/wheel.jpg" loading="lazy"/>\n      <p><i>Favor polyfills over frameworks, but don\'t re-invent the wheel if you don\'t need to.</i></p>\n    '},{title:"Reuse",template:'\n      <p>Component based development has become a widely adopted and pragmatic approach in modern web application development.</p>\n      <br/>\n      <p>Reuse is encouraged through the use of native "Web" components that look a lot like the components you may already be used to seeing and writing.</p>\n      <br/>\n      <a href="https://jsfiddle.net/thegreenhouseio/qjj9hvv9/1/" target="_blank" rel="noopener">\n        <img class="screenshot" src="/assets/simple-component-example.jpg" loading="lazy"/>\n      </a>\n    '},{title:"Recycle",template:'<p>It should be clear, the JavaScript community and ecosystem is amazing and inspiring! There are so many wonderful tools and options out there, and that\'s what\n      makes it so great. We always endorse using the right tool for the job, but favor those that promote positive choices around web standards.  <i>We often have more in common\n      than we do apart</i>.</p>\n      <br/>\n      <img class="screenshot" src="/assets/community.png" loading="lazy"/>\n    '}]};const n=class{static getContent(e){return s[e]?s[e]:[]}}.getContent("home"),o=document.getElementsByTagName("x-simple-slider")[0],a=n.reduce(((e,t,s)=>e+`\n          <div slot="slide${s+1}"><h3>${t.title}</h3>${t.template}</div>\n        `),"");o.setAttribute("slots",n.length),o.innerHTML=a//# sourceMappingURL=90338618-scratch.80b74298.js.map
 </script>
-
           
+        
   
           <link rel="preconnect" href="https://www.google-analytics.com/">
           <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147204327-2"></script>
