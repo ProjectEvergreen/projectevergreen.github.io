@@ -1,12 +1,12 @@
-const pluginGoogleAnalytics = require('@greenwood/plugin-google-analytics');
-const pluginImportCss = require('@greenwood/plugin-import-css');
-const pluginPostCss = require('@greenwood/plugin-postcss');
+import { greenwoodPluginGoogleAnalytics } from '@greenwood/plugin-google-analytics';
+import { greenwoodPluginImportCss } from '@greenwood/plugin-import-css';
+import { greenwoodPluginPostCss } from '@greenwood/plugin-postcss';
 
 const FAVICON_HREF = '/assets/favicon.ico';
 const HANDLE = '@PrjEvergreen';
 const META_DESCRIPTION = 'Project Evergreen\'s goal is to help everyone succeed in making a modern website or application using the latest in web standards and technologies.';
 
-module.exports = {
+export default {
   title: 'Project Evergreen',
 
   meta: [
@@ -24,11 +24,11 @@ module.exports = {
   ],
 
   plugins: [
-    pluginPostCss(),
+    greenwoodPluginPostCss(),
     
-    ...pluginImportCss(),
+    ...greenwoodPluginImportCss(),
 
-    pluginGoogleAnalytics({
+    greenwoodPluginGoogleAnalytics({
       analyticsId: 'UA-147204327-2'
     })
   ]
