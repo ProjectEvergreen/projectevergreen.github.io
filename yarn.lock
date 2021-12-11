@@ -43,10 +43,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@greenwood/cli@^0.20.0-alpha.0":
-  version "0.20.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@greenwood/cli/-/cli-0.20.0-alpha.0.tgz#98e963216fd4a67fea95cb73c923ac272e73b258"
-  integrity sha512-NRkFuT11nwp8BcU+NOgef97e8UTrXANf/KGffE4svZTM/ghd2xGkIdaSsMUiEHqZvKPWWdh/WqueJXOFgYZv1w==
+"@greenwood/cli@^0.20.0-alpha.1":
+  version "0.20.0-alpha.1"
+  resolved "https://registry.yarnpkg.com/@greenwood/cli/-/cli-0.20.0-alpha.1.tgz#42c0201754f13cd396ab3bf4ec7c4703ecf88e16"
+  integrity sha512-oG4538VyST0g4RUsC4jfVIPG7QhB/vcgq+pHSNMZGN9xgqYVtB0RW/shmZGtk1ltQPnwAHawO0N2HbNV/d965Q==
   dependencies:
     "@rollup/plugin-node-resolve" "^13.0.0"
     "@rollup/plugin-replace" "^2.3.4"
@@ -60,6 +60,7 @@
     koa "^2.13.0"
     livereload "^0.9.1"
     markdown-toc "^1.2.0"
+    node-fetch "^2.6.1"
     node-html-parser "^1.2.21"
     postcss "^8.3.11"
     postcss-import "^13.0.0"
@@ -73,22 +74,22 @@
     rollup-plugin-terser "^7.0.0"
     unified "^9.2.0"
 
-"@greenwood/plugin-google-analytics@^0.20.0-alpha.0":
-  version "0.20.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@greenwood/plugin-google-analytics/-/plugin-google-analytics-0.20.0-alpha.0.tgz#125cd80255233f3b7ae2eb2eb8e2eb7171395974"
-  integrity sha512-qW7U828udyj3Hvai/o56MC65ja3HOpdatfbCIMH0YzKePtGwYgZoJPDnFbLybZBa/66ux7MTC4NpqYjq1xmsIQ==
+"@greenwood/plugin-google-analytics@^0.20.0-alpha.1":
+  version "0.20.0-alpha.1"
+  resolved "https://registry.yarnpkg.com/@greenwood/plugin-google-analytics/-/plugin-google-analytics-0.20.0-alpha.1.tgz#54c2a33f5d1f26a5ebf878c0f70ece9568b054b5"
+  integrity sha512-+vbbVYZCJaY6D5U8STTwgBN6u41zeZP3Quy52epyOqTfkcPkcGSoRKEAnhXdU3aicxOlR+mhSnUFi/9+/Pbugw==
 
-"@greenwood/plugin-import-css@^0.20.0-alpha.0":
-  version "0.20.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@greenwood/plugin-import-css/-/plugin-import-css-0.20.0-alpha.0.tgz#d35ef030e64bfa862d262c7ce4d177bfa5a594d2"
-  integrity sha512-U/M4Qq1Yt1vo1F9yDLf4y77i3t5SMzMFs1SPy3jfWGmfZDFhJDeEXoMhM7NIRPuncYezDOik9KlsuZmvGzRzJw==
+"@greenwood/plugin-import-css@^0.20.0-alpha.1":
+  version "0.20.0-alpha.1"
+  resolved "https://registry.yarnpkg.com/@greenwood/plugin-import-css/-/plugin-import-css-0.20.0-alpha.1.tgz#459997868a1bb2d5431acd743cd83dce62094a81"
+  integrity sha512-t9kVPQdgrDqzLJyP1TN5Cys09ZyqKVV1kMtSKhBPZmu3k1vI5l+meScgiwelzMXlFWBhVgXyO8unZnI+sKAupA==
   dependencies:
     rollup-plugin-postcss "^4.0.2"
 
-"@greenwood/plugin-postcss@^0.20.0-alpha.0":
-  version "0.20.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@greenwood/plugin-postcss/-/plugin-postcss-0.20.0-alpha.0.tgz#622a62ad023fa8df1ef4f0d63f2cc44a4cdf6b71"
-  integrity sha512-6WQpXNcs9RKP9SZhDrm3iR4WsJlhSqEy8n4RE97Kkd1tWueyA2WCnLFgWzoCHjze/GHc174NGEWfBqioQtxNyw==
+"@greenwood/plugin-postcss@^0.20.0-alpha.1":
+  version "0.20.0-alpha.1"
+  resolved "https://registry.yarnpkg.com/@greenwood/plugin-postcss/-/plugin-postcss-0.20.0-alpha.1.tgz#7fc2191d196bc6f9e292417fe30594256a0030ad"
+  integrity sha512-g5UX95RJcS+Hil1Vuvv12kL3dmUeJr+I10yB+b6nWEE12GEbfnAgEqH9tTppSQIYpp1Azd5fWywyOr/T36nj9Q==
   dependencies:
     postcss-preset-env "^7.0.1"
 
@@ -2097,6 +2098,13 @@ node-fetch@2.6.1:
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
   integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
+node-fetch@^2.6.1:
+  version "2.6.6"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.6.tgz#1751a7c01834e8e1697758732e9efb6eeadfaf89"
+  integrity sha512-Z8/6vRlTUChSdIgMa51jxQ4lrw/Jy5SOW10ObaA47/RElsAN2c5Pn8bTgFGWn/ibwzXTE8qwr1Yzx28vsecXEA==
+  dependencies:
+    whatwg-url "^5.0.0"
+
 node-html-parser@^1.2.21:
   version "1.4.9"
   resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-1.4.9.tgz#3c8f6cac46479fae5800725edb532e9ae8fd816c"
@@ -3398,6 +3406,11 @@ toml@^2.3.2:
   resolved "https://registry.yarnpkg.com/toml/-/toml-2.3.6.tgz#25b0866483a9722474895559088b436fd11f861b"
   integrity sha512-gVweAectJU3ebq//Ferr2JUY4WKSDe5N+z0FvjDncLGyHmIDoxgY/2Ie4qfEIDm4IS7OA6Rmdm7pdEEdMcV/xQ==
 
+tr46@~0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
+  integrity sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=
+
 trim-trailing-lines@^1.0.0:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/trim-trailing-lines/-/trim-trailing-lines-1.1.4.tgz#bd4abbec7cc880462f10b2c8b5ce1d8d1ec7c2c0"
@@ -3576,6 +3589,19 @@ web-namespaces@^1.0.0:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/web-namespaces/-/web-namespaces-1.1.4.tgz#bc98a3de60dadd7faefc403d1076d529f5e030ec"
   integrity sha512-wYxSGajtmoP4WxfejAPIr4l0fVh+jeMXZb08wNc0tMg6xsfZXj3cECqIK0G7ZAqUq0PP8WlMDtaOGVBTAWztNw==
+
+webidl-conversions@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-3.0.1.tgz#24534275e2a7bc6be7bc86611cc16ae0a5654871"
+  integrity sha1-JFNCdeKnvGvnvIZhHMFq4KVlSHE=
+
+whatwg-url@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/whatwg-url/-/whatwg-url-5.0.0.tgz#966454e8765462e37644d3626f6742ce8b70965d"
+  integrity sha1-lmRU6HZUYuN2RNNib2dCzotwll0=
+  dependencies:
+    tr46 "~0.0.3"
+    webidl-conversions "^3.0.0"
 
 which@^2.0.1:
   version "2.0.2"
