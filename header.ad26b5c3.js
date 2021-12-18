@@ -1,6 +1,6 @@
 import{L as e,h as t,s as r}from"./lit-element.4e4bdcd5.js";customElements.define("x-social-links-bar",class extends e{render(){return t`
       <style>
-        ${":host ul{margin:0;padding:0}:host li{margin:0 10px;display:inline-block;list-style:none;background-size:cover}:host a{width:50px;height:50px;text-decoration:none;display:block}:host li.github{background-image:url(images/github.jpg)}:host li.twitter{background-image:url(images/twitter.png)}:host li.slack{background-image:url(images/slack.png)}"}
+        ${":host ul{margin:0;padding:0}:host li{background-size:cover;display:inline-block;list-style:none;margin:0 10px}:host a{display:block;height:50px;text-decoration:none;width:50px}:host li.github{background-image:url(images/github.jpg)}:host li.twitter{background-image:url(images/twitter.png)}:host li.slack{background-image:url(images/slack.png)}"}
       </style>
       
       <div>        
@@ -91,7 +91,7 @@ import{L as e,h as t,s as r}from"./lit-element.4e4bdcd5.js";customElements.defin
     </g>
   </svg>`;customElements.define("eve-social-icons",class extends e{render(){const e="https://github.com/ProjectEvergreen",r="https://join.slack.com/t/thegreenhouseio/shared_invite/enQtMzcyMzE2Mjk1MjgwLTU5YmM1MDJiMTg0ODk4MjA4NzUwNWFmZmMxNDY5MTcwM2I0MjYxN2VhOTEwNDU2YWQwOWQzZmY1YzY4MWRlOGI",s="https://twitter.com/PrjEvergreen";return t`
       <style>
-        ${":host{display:flex;justify-content:space-around;flex-direction:row}:host .icons{margin:auto}:host .slack-icon{padding:0 1rem 0 1.25rem}@media (max-width:768px){:host{flex-direction:row}}"}
+        ${":host{display:flex;flex-direction:row;justify-content:space-around}:host .icons{margin:auto}:host .slack-icon{padding:0 1rem 0 1.25rem}@media (max-width:768px){:host{flex-direction:row}}"}
       </style>
 
       <a class="icons"
@@ -119,7 +119,7 @@ import{L as e,h as t,s as r}from"./lit-element.4e4bdcd5.js";customElements.defin
       >${i}</a>
     `}});customElements.define("x-header",class extends e{render(){return t`
       <style>
-        ${":host{display:flex;background-color:#192a27;font-size:1.2rem}:host .header-text,:host a{color:#fff;text-decoration:none}:host #brand-header{display:flex}:host header{display:flex;justify-content:space-between;width:100%;padding:2rem 4rem}:host img{width:60px;margin:1rem 1rem 1rem 0}@media (max-width:768px){:host header{flex-direction:column;text-align:center;padding:1rem}:host h2{font-size:22px;margin-top:auto}:host img{width:30px;margin:0 .5rem 0 0}:host #brand-header{justify-content:center;margin-bottom:1rem}}"}
+        ${":host{background-color:#192a27;display:flex;font-size:1.2rem}:host .header-text,:host a{color:#fff;text-decoration:none}:host #brand-header{display:flex}:host header{display:flex;justify-content:space-between;padding:2rem 4rem;width:100%}:host img{margin:1rem 1rem 1rem 0;width:60px}@media (max-width:768px){:host header{flex-direction:column;padding:1rem;text-align:center}:host h2{font-size:22px;margin-top:auto}:host img{margin:0 .5rem 0 0;width:30px}:host #brand-header{justify-content:center;margin-bottom:1rem}}"}
       </style>
 
       <header>
@@ -134,4 +134,4 @@ import{L as e,h as t,s as r}from"./lit-element.4e4bdcd5.js";customElements.defin
         <eve-social-icons></eve-social-icons>
       </header>
     `}});
-//# sourceMappingURL=header.6462d527.js.map
+//# sourceMappingURL=header.ad26b5c3.js.map
