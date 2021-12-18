@@ -5,6 +5,7 @@
   "repository": "git@github.com:project-evergreen/projectevergreen.github.io.git",
   "author": "Owen Buckley <owen@thegreenhouse.io>",
   "license": "Apache-2.0",
+  "type": "module",
   "scripts": {
     "clean": "rimraf ./public",
     "lint": "eslint \"*.js\" \"src/**/**/*.js\"",
@@ -17,11 +18,11 @@
     "lit-element": "^2.4.0"
   },
   "devDependencies": {
-    "@greenwood/cli": "^0.19.0",
-    "@greenwood/plugin-google-analytics": "^0.19.0",
-    "@greenwood/plugin-import-css": "^0.19.0",
-    "@greenwood/plugin-postcss": "^0.19.0",
-    "eslint": "^6.6.0",
+    "@greenwood/cli": "^0.20.0",
+    "@greenwood/plugin-google-analytics": "^0.20.0",
+    "@greenwood/plugin-import-css": "^0.20.0",
+    "@greenwood/plugin-postcss": "^0.20.0",
+    "eslint": "^8.4.0",
     "postcss-nested": "^4.1.2",
     "rimraf": "^3.0.0"
   }
