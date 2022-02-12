@@ -18,10 +18,10 @@
     "lit-element": "^2.4.0"
   },
   "devDependencies": {
-    "@greenwood/cli": "^0.22.1",
-    "@greenwood/plugin-google-analytics": "^0.22.1",
-    "@greenwood/plugin-import-css": "^0.22.1",
-    "@greenwood/plugin-postcss": "^0.22.1",
+    "@greenwood/cli": "^0.23.0",
+    "@greenwood/plugin-google-analytics": "^0.23.0",
+    "@greenwood/plugin-import-css": "^0.23.0",
+    "@greenwood/plugin-postcss": "^0.23.0",
     "eslint": "^8.4.0",
     "postcss-nested": "^4.1.2",
     "rimraf": "^3.0.0"
