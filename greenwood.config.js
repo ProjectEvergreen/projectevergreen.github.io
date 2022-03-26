@@ -9,6 +9,8 @@ const META_DESCRIPTION = 'Project Evergreen\'s goal is to help everyone succeed 
 export default {
   title: 'Project Evergreen',
 
+  prerender: true,
+
   meta: [
     { name: 'description', content: META_DESCRIPTION },
     { name: 'twitter:site', content: HANDLE },
