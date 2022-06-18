@@ -1,9 +1,15 @@
 const projects = [{
   name: 'Greenwood',
-  description: 'A modern and performant static site generator supporting Web Component based development.',
+  description: 'Your workbench for the web, focused on supporting modern web standards and development to help you create your next project.',
   image: '/assets/projects/greenwood-logo-500w.png',
   github: 'ProjectEvergreen/greenwood',
   website: 'https://www.greenwoodjs.io/'
+}, {
+  name: 'Web Components Compiler (WCC)',
+  description: 'An experimental native Web Components compiler.',
+  image: '/assets/wcc-logo.png',
+  github: 'ProjectEvergreen/wcc',
+  website: 'https://github.com/ProjectEvergreen/wcc'
 }, {
   name: 'Evergreen Web Components',
   description: 'A component library bsaed on modern Web (Component) standards.',
@@ -23,17 +29,17 @@ const projectsList = projects.map(project => {
 
   return `
     <article class="card">
-      
+
       <h1>${name}</h1>
       <div class="card-img-top">
         <img src="${image}" alt="${name}" loading="lazy"/>
       </div>
-      
+
       <p>${description}</p>
-      
+
       <a href="${website}" title="${name} Website">
-        <img 
-          src="https://img.shields.io/github/stars/${github}.svg?style=social&logo=github&label=github" 
+        <img
+          src="https://img.shields.io/github/stars/${github}.svg?style=social&logo=github&label=github"
           alt="${name} GitHub badge"
           class="github-badge"
           loading="lazy"/>
@@ -49,7 +55,7 @@ template.innerHTML = `
     article {
       margin-bottom: 25px;
     }
-    
+
     .card {
       position: relative;
       display: flex;
@@ -69,7 +75,7 @@ template.innerHTML = `
       font-size: 1rem;
       padding: 5px;
     }
-    
+
     .card .card-img-top {
       background-size: cover;
       background-position-x: center;
