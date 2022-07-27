@@ -43,10 +43,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@greenwood/cli@^0.26.0-alpha.1":
-  version "0.26.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@greenwood/cli/-/cli-0.26.0-alpha.1.tgz#1b62c8753f8a95dca4ea02445e370f0cf6b19d56"
-  integrity sha512-T26/cP3cbqC5hUTnnv3O9DFmSfOb2cisrehLi0zof5yMLiL/rHAQbTbCBQ0+xiPPUHwnSKNQRPklHE/yNCTqOQ==
+"@greenwood/cli@^0.26.0":
+  version "0.26.0"
+  resolved "https://registry.yarnpkg.com/@greenwood/cli/-/cli-0.26.0.tgz#18784c9d435a47a59381a9abf32b2f82652a54b5"
+  integrity sha512-CcxNBxwQGAnu8dnbcsx51EThoHQxr49J0ZCfhXmaB/DvhZvMwXYeJ6ihnWAmSLhlgGr087qJFojyqo3zi3jBtg==
   dependencies:
     "@rollup/plugin-node-resolve" "^13.0.0"
     "@rollup/plugin-replace" "^2.3.4"
@@ -71,32 +71,32 @@
     rollup "^2.58.0"
     rollup-plugin-terser "^7.0.0"
     unified "^9.2.0"
-    wc-compiler "~0.4.0"
+    wc-compiler "~0.5.0"
 
-"@greenwood/plugin-google-analytics@^0.26.0-alpha.1":
-  version "0.26.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@greenwood/plugin-google-analytics/-/plugin-google-analytics-0.26.0-alpha.1.tgz#f4d8196b70e6efcfba9d48614645f603c6c67f81"
-  integrity sha512-570q8dmMJwj/JcdCl2Em+X0mTMc5FeK8088C+IeNWQcLOOjfhYMb2lkBYlElSfIx3rRS7haiA0uS9xVPnjzpcA==
+"@greenwood/plugin-google-analytics@^0.26.0":
+  version "0.26.0"
+  resolved "https://registry.yarnpkg.com/@greenwood/plugin-google-analytics/-/plugin-google-analytics-0.26.0.tgz#aaac525f9370338af5bef0127c1de90c3267ef77"
+  integrity sha512-9Xmf2UMcb51qICYoEWVSYrYhtA4GJVJKrQL3OKcO7Lh8coRdCG5rfIunJn3eIB/TREI93zzOq1n07aRPKiyGrw==
 
-"@greenwood/plugin-import-css@^0.26.0-alpha.1":
-  version "0.26.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@greenwood/plugin-import-css/-/plugin-import-css-0.26.0-alpha.1.tgz#27e3f50889a9e880b2c8dc5f6c4cc79f363b0507"
-  integrity sha512-kuaDaFBm6+wHDn9+bB1SYnZuJ+G/Sj5zheMNDB8X5wHv5HqGAfW6Ic/CzW0I6H7gEbFqumYhr/+TKVEKRicXIQ==
+"@greenwood/plugin-import-css@^0.26.0":
+  version "0.26.0"
+  resolved "https://registry.yarnpkg.com/@greenwood/plugin-import-css/-/plugin-import-css-0.26.0.tgz#64912baae0a069845ebfed6aa18398f8b9310ddf"
+  integrity sha512-cuJDa8klePyzaMK/2mHyzhEgFanp8f7TGLBGSrmXwqTe8JvHdztb6jhMO0v8o16p4mmwgsM3fzUO9XVGIKEBNw==
   dependencies:
     rollup-plugin-postcss "^4.0.2"
 
-"@greenwood/plugin-postcss@^0.26.0-alpha.1":
-  version "0.26.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@greenwood/plugin-postcss/-/plugin-postcss-0.26.0-alpha.1.tgz#026a05f0bc3c95963ff55b40b714216a51c2c2c0"
-  integrity sha512-wueJeFW/zy76cDbCf0C3+/515DTSsCNtbFQnWYCjbMIGZKd+MkzTd2okClz88TCQZNcnqiw02oTFKdhKu7NEDw==
+"@greenwood/plugin-postcss@^0.26.0":
+  version "0.26.0"
+  resolved "https://registry.yarnpkg.com/@greenwood/plugin-postcss/-/plugin-postcss-0.26.0.tgz#b3624035d4df364ba1e1cd15fe799ef1eb3cfd75"
+  integrity sha512-/doigMNkiOjq6sTSAolABQ0u4RRD49+GhvAPbpmH7loSyztTZGcwfdKiDqTIn7VNBtZBxTPDajGILejx4Ebibw==
   dependencies:
     cssnano "^5.0.11"
     postcss-preset-env "^7.0.1"
 
-"@greenwood/plugin-renderer-puppeteer@^0.26.0-alpha.1":
-  version "0.26.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@greenwood/plugin-renderer-puppeteer/-/plugin-renderer-puppeteer-0.26.0-alpha.1.tgz#832316e5a02d001a4c7534ad80a6153ba134f3ea"
-  integrity sha512-Bs4KFhUBchrXy3Vmc9777LuUa8m5w6E8HEgdXar7VbBGnG+K2v9sMTo0E0iD/Y5krd76q9pT79V+wKKP+XIRFw==
+"@greenwood/plugin-renderer-puppeteer@^0.26.0":
+  version "0.26.0"
+  resolved "https://registry.yarnpkg.com/@greenwood/plugin-renderer-puppeteer/-/plugin-renderer-puppeteer-0.26.0.tgz#9dfbe8a887419638935b263cb9844fd61bff2062"
+  integrity sha512-hGW7cWIhfsBp8BkdpdERbtKzp+Q331+jI1HSMMrzBLV2UmryPr6qtbUW8qgT6iYwj4yCxAlzMO5q4mc0spsYGA==
   dependencies:
     "@webcomponents/webcomponentsjs" "^2.6.0"
     puppeteer "^15.3.2"
@@ -3674,10 +3674,10 @@ vfile@^4.0.0:
     unist-util-stringify-position "^2.0.0"
     vfile-message "^2.0.0"
 
-wc-compiler@~0.4.0:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/wc-compiler/-/wc-compiler-0.4.1.tgz#7a970760f6decaedfba4d99939d590b43a5ad6a2"
-  integrity sha512-TmjrquaS83Ra+q58L7fhHY2sJPM22oFRbrAnC6Djvq5Ex+qc/iAn/jg4pXRgLzWHlhLwI+6Z8C3sBpINFq0O4Q==
+wc-compiler@~0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/wc-compiler/-/wc-compiler-0.5.0.tgz#869739ba765e41ac699b08a5991c52231ef2fbe0"
+  integrity sha512-ScHbrtd81cvMEg8tn7L/iSc1WhckNKIB77VGhZYxMNELHmgQdMuC/r36E/LhAHdqAJYxi4y77DXmU56BZzeBng==
   dependencies:
     acorn "^8.7.0"
     acorn-walk "^8.2.0"
