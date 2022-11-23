@@ -1,6 +1,6 @@
 import { html, LitElement } from 'lit-element';
 import '../social-links-bar/social-links-bar.js';
-import css from './header.css';
+import css from './header.css?type=css';
 import '../social-icons/social-icons.js';
 
 class HeaderComponent extends LitElement {

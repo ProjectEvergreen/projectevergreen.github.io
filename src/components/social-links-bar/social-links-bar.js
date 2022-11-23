@@ -1,5 +1,5 @@
 import { html, LitElement } from 'lit-element';
-import css from './social-links-bar.css';
+import css from './social-links-bar.css?type=css';
 
 class SocialLinksBarComponent extends LitElement {
 

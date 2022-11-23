@@ -6,13 +6,10 @@ import { greenwoodPluginRendererPuppeteer } from '@greenwood/plugin-renderer-pup
 export default {
   plugins: [
     greenwoodPluginPostCss(),
-    
-    ...greenwoodPluginImportCss(),
-
+    greenwoodPluginImportCss(),
+    greenwoodPluginRendererPuppeteer(),
     greenwoodPluginGoogleAnalytics({
       analyticsId: 'UA-147204327-2'
-    }),
-
-    ...greenwoodPluginRendererPuppeteer()
+    })
   ]
 };
