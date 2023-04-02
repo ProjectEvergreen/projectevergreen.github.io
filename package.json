@@ -11,18 +11,18 @@
     "lint": "eslint \"*.js\" \"src/**/**/*.js\"",
     "build": "greenwood build",
     "develop": "greenwood develop",
-    "serve": "greenwood serve"
+    "serve": "yarn build && greenwood serve"
   },
   "dependencies": {
     "component-simple-slider": "^0.2.0",
     "lit-element": "^2.4.0"
   },
   "devDependencies": {
-    "@greenwood/cli": "^0.28.0-alpha.2",
-    "@greenwood/plugin-google-analytics": "^0.28.0-alpha.2",
-    "@greenwood/plugin-import-css": "^0.28.0-alpha.2",
-    "@greenwood/plugin-postcss": "^0.28.0-alpha.2",
-    "@greenwood/plugin-renderer-puppeteer": "^0.28.0-alpha.2",
+    "@greenwood/cli": "^0.28.0-alpha.5",
+    "@greenwood/plugin-google-analytics": "^0.28.0-alpha.5",
+    "@greenwood/plugin-import-css": "^0.28.0-alpha.5",
+    "@greenwood/plugin-postcss": "^0.28.0-alpha.5",
+    "@greenwood/plugin-renderer-puppeteer": "^0.28.0-alpha.5",
     "eslint": "^8.4.0",
     "postcss-nested": "^4.1.2",
     "puppeteer": "^10.2.0",
