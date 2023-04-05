@@ -7,7 +7,7 @@
   "license": "Apache-2.0",
   "type": "module",
   "scripts": {
-    "clean": "rimraf ./public",
+    "clean": "rimraf ./public .greenwood",
     "lint": "eslint \"*.js\" \"src/**/**/*.js\"",
     "build": "greenwood build",
     "develop": "greenwood develop",
