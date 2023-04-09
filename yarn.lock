@@ -22,10 +22,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@greenwood/cli@^0.28.0-alpha.5":
-  version "0.28.0-alpha.5"
-  resolved "https://registry.yarnpkg.com/@greenwood/cli/-/cli-0.28.0-alpha.5.tgz#4f34982d4182472835be17a7685c92b160c1fbf7"
-  integrity sha512-reYupGeIrkoWMDqC73oR/IQg4VIGsgL7sz+FMOYfeEtbyyEaRN1P6vArws8TFgML50s2BoDetk9yw78UTTw3/w==
+"@greenwood/cli@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.yarnpkg.com/@greenwood/cli/-/cli-0.28.0.tgz#c4964622ab4b6759224fa425572e4b053e137fb4"
+  integrity sha512-vRUDGnfbyBBZCDPa2ShWyh8iZ1buD37okAqebKqcnum7u/tcjHiLd2AwMjrkihMSn2Oxobx9F2aD1QL7/E/AOQ==
   dependencies:
     "@rollup/plugin-commonjs" "^21.0.0"
     "@rollup/plugin-node-resolve" "^13.0.0"
@@ -51,29 +51,29 @@
     unified "^9.2.0"
     wc-compiler "~0.8.0"
 
-"@greenwood/plugin-google-analytics@^0.28.0-alpha.5":
-  version "0.28.0-alpha.5"
-  resolved "https://registry.yarnpkg.com/@greenwood/plugin-google-analytics/-/plugin-google-analytics-0.28.0-alpha.5.tgz#d785e4d848ce640bf6d5639d9fb8eeb1308f0cb5"
-  integrity sha512-v3U+no8dJEttfbqdAPQNN36B2VsHQslP4l2/POZThddigbE7VDC+RWz7F/yKG6uwea8SyYu5ibvrPSdr1xykkg==
+"@greenwood/plugin-google-analytics@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.yarnpkg.com/@greenwood/plugin-google-analytics/-/plugin-google-analytics-0.28.0.tgz#647df4509a8ec7f5cdb67034e52d667dc15c7100"
+  integrity sha512-C2WrE+VRAG2Lj1Epob/Jlq5t5wigut47wxytJaPLMAYyyCFxpZLEofTdFfYmsQKg6BVmYMWhSnpdmcvRAwq1sg==
 
-"@greenwood/plugin-import-css@^0.28.0-alpha.5":
-  version "0.28.0-alpha.5"
-  resolved "https://registry.yarnpkg.com/@greenwood/plugin-import-css/-/plugin-import-css-0.28.0-alpha.5.tgz#0390f28d849c8dec41c03248c8b50e7331ee9ea0"
-  integrity sha512-6ns5DaR1jCi4Wi9rSLoyt6+OcHyU+/VViqXUguLCnO++OI+GgUltjUgH57asLxD51VuZWU3bRyaSRPSraxQgUg==
+"@greenwood/plugin-import-css@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.yarnpkg.com/@greenwood/plugin-import-css/-/plugin-import-css-0.28.0.tgz#5d904295c1731d1a992d962ab025ce5d292eeeb5"
+  integrity sha512-WBaSfnIXAHf1ogwzUsMl4lE85DAbqb5PNQHc/6VoAZOUhcNRR2VyJsfjiIUCjtmeulmUw+VTo3CXAavBLFNGHQ==
 
-"@greenwood/plugin-postcss@^0.28.0-alpha.5":
-  version "0.28.0-alpha.5"
-  resolved "https://registry.yarnpkg.com/@greenwood/plugin-postcss/-/plugin-postcss-0.28.0-alpha.5.tgz#44aab5e2738f7d74054a6496fa6d525b0cbb5833"
-  integrity sha512-EuzdT9f4V9BDZjHZx2lwOknNPTvN7W3u3f58KR8F9I20XoJ5pef8oYIqxDPf0qdQEssbw9lSFjQy0sVwgF/JIA==
+"@greenwood/plugin-postcss@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.yarnpkg.com/@greenwood/plugin-postcss/-/plugin-postcss-0.28.0.tgz#fd6ebebb9c675fcbcc4c62f79da8a394eaf6cdac"
+  integrity sha512-laDXCrpAUTkdf23ov3RJBXjQvji80Fd1l/ECweYZ21y3g+chFlRsd+AVnW/7DFKgAdefYXP3OIXWCLS/LlMnlQ==
   dependencies:
     postcss "^8.3.11"
     postcss-import "^13.0.0"
     postcss-preset-env "^7.0.1"
 
-"@greenwood/plugin-renderer-puppeteer@^0.28.0-alpha.5":
-  version "0.28.0-alpha.5"
-  resolved "https://registry.yarnpkg.com/@greenwood/plugin-renderer-puppeteer/-/plugin-renderer-puppeteer-0.28.0-alpha.5.tgz#88656e7ea0e64a3a6e463bca32776c90a6de37bf"
-  integrity sha512-kjIoIesk23fncP7Oab3m5XKqTtOnH+x9I+St5CvxFzNdGn+uq5xVnBW4FxRD/xFNiJt/wyV8FohhNsOc0IjnYw==
+"@greenwood/plugin-renderer-puppeteer@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.yarnpkg.com/@greenwood/plugin-renderer-puppeteer/-/plugin-renderer-puppeteer-0.28.0.tgz#cea5c37a2db00bc58f1f03a495effdc4527da48c"
+  integrity sha512-DWmUbSgOVM4LakBwB/ZSP/tjl9/QzzBLU2URsE2FsEfnpFtlgoAq/4XXaD0k831Z+nLAGaMz3kjArsckMPT8zQ==
   dependencies:
     "@webcomponents/webcomponentsjs" "^2.6.0"
     puppeteer "^15.3.2"
