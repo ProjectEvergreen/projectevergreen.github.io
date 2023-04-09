@@ -117,7 +117,7 @@ import{L as e,h as t,s as r}from"./lit-element.4e4bdcd5.js";customElements.defin
         aria-label="open twitter page"
         @onclick="getOutboundLink('${s}'); return false;"
       >${i}</a>
-    `}}),customElements.define("x-header",class extends e{render(){return t`
+    `}});customElements.define("x-header",class extends e{render(){return t`
       <style>
         ${":host {   display: flex;   background-color: #192a27;   font-size: 1.2rem; }    :host .header-text, :host a {     color: #FFF;     text-decoration: none;   }    :host #brand-header {     display: flex;   }    :host header {     display: flex;     justify-content: space-between;     width: 100%;     padding: 2rem 4rem;   }    :host img {     width: 60px;     margin: 1rem 1rem 1rem 0;   }    @media (max-width: 768px) {     :host header {       flex-direction: column;       text-align: center;       padding: 1rem;     }     :host h2 {       font-size: 22px;       margin-top: auto;     }     :host img {       width: 30px;       margin: 0 0.5rem 0 0;     }     :host #brand-header {       justify-content: center;       margin-bottom: 1rem;     }   } "}
       </style>

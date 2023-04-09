@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og:http://ogp.me/ns#">
+  <head>
+    <title>Project Evergreen</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="mobile-web-app-capable" content="yes"/>
+    <meta name="description" content="Project Evergreen's goal is to help everyone succeed in making a modern website or application using the latest in web standards and technologies.">
+    <meta name="twitter:site" content="@PrjEvergreen">
+    <meta name="twitter:creator" content="@PrjEvergreen">
+    <meta property="og:title" content="Project Evergreen">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://projectevergreen.github.io">
+    <meta property="og:image" content="https://projectevergreen.github.io/assets/evergreen-logo.png">
+    <meta property="og:description" content="Project Evergreen's goal is to help everyone succeed in making a modern website or application using the latest in web standards and technologies.">
+    <meta name="google-site-verification" content="KWcqT8r7R4bo7MjTwPtmAsZ079gqb7wAXeFkIJQJzs0">
+    <link rel="shortcut icon" href="/assets/favicon.ico">
+    <link rel="icon" href="/assets/favicon.ico">
+
+    <link rel="stylesheet" href="/styles/theme.css"></link>
+    
+    <script type="module" src="/components/footer/footer.js"></script>
+    <script type="module" src="/components/header/header.js"></script>
+  </head>
+
+  <body>
+    <main class="wrapper">
+
+      <section class="header-container">
+        <x-header></x-header>
+      </section>
+
+      <section>
+        <nav>
+          <ul>
+            <li>
+              <a href="/" title="Home page">Home</a>
+            </li>
+            <li>
+              <a href="/projects/" title="Projects page">Projects</a>
+            </li>
+            <li>
+              <a href="/blog/" title="Blog page">Blog</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+
+      <section class="content">
+        <page-outlet></page-outlet>
+      </section>
+
+      <section>
+        <x-footer></x-footer>
+      </section>
+    </main>
+    
+  </body>
+</html>
