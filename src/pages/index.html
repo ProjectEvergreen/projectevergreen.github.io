@@ -5,8 +5,7 @@
     
     <script type="module">
       import 'component-simple-slider';
-      import { html } from 'lit-element';
-      import ContentService from '/services/content-service.js';
+      import ContentService from '../services/content-service.js';
 
       const slides = ContentService.getContent('home');
       const simpleSlider = document.getElementsByTagName('x-simple-slider')[0];
