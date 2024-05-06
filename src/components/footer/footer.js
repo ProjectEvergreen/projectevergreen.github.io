@@ -1,5 +1,5 @@
 import { html, LitElement } from 'lit-element';
-import css from './footer.css?type=css';
+import css from './footer.css?type=raw';
 
 class FooterComponent extends LitElement {
 

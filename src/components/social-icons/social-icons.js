@@ -1,5 +1,5 @@
 import { html, LitElement } from 'lit-element';
-import css from './social-icons.css?type=css';
+import css from './social-icons.css?type=raw';
 import githubIcon from '../icons/github-icon.js';
 import twitterIcon from '../icons/twitter-icon.js';
 import slackIcon from '../icons/slack-icon.js';
