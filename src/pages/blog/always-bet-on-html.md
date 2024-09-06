@@ -1,6 +1,6 @@
 ---
 title: 'Always Bet On HTML'
-template: 'blog'
+layout: 'blog'
 ---
 
 # Always Bet On ~~JavaScript~~ HTML 😎
