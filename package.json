@@ -18,11 +18,11 @@
     "lit-element": "^2.4.0"
   },
   "devDependencies": {
-    "@greenwood/cli": "^0.30.0-alpha.6",
-    "@greenwood/plugin-google-analytics": "^0.30.0-alpha.6",
-    "@greenwood/plugin-import-raw": "^0.30.0-alpha.6",
-    "@greenwood/plugin-postcss": "^0.30.0-alpha.6",
-    "@greenwood/plugin-renderer-puppeteer": "^0.30.0-alpha.6",
+    "@greenwood/cli": "^0.30.0-alpha.7",
+    "@greenwood/plugin-google-analytics": "^0.30.0-alpha.7",
+    "@greenwood/plugin-import-raw": "^0.30.0-alpha.7",
+    "@greenwood/plugin-postcss": "^0.30.0-alpha.7",
+    "@greenwood/plugin-renderer-puppeteer": "^0.30.0-alpha.7",
     "eslint": "^8.4.0",
     "postcss-nested": "^4.1.2",
     "puppeteer": "^10.2.0",
