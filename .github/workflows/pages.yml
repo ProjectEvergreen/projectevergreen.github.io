@@ -9,12 +9,16 @@ jobs:
 
   build-and-deploy:
     runs-on: ubuntu-20.04
+
+    strategy:
+      matrix:
+        node: [18]
   
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-node@v3
       with:
-        node-version: 18.12.1
+        node-version: ${{ matrix.node }}
 
     - name: Install Dependencies
       run: |

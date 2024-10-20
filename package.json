@@ -10,19 +10,19 @@
     "clean": "rimraf ./public .greenwood",
     "lint": "eslint \"*.js\" \"src/**/**/*.js\"",
     "build": "greenwood build",
-    "develop": "greenwood develop",
-    "serve": "yarn build && greenwood serve"
+    "dev": "greenwood develop",
+    "serve": "yarn clean && yarn build && greenwood serve"
   },
   "dependencies": {
     "component-simple-slider": "^0.2.0",
     "lit-element": "^2.4.0"
   },
   "devDependencies": {
-    "@greenwood/cli": "^0.29.0",
-    "@greenwood/plugin-google-analytics": "^0.29.0",
-    "@greenwood/plugin-import-css": "^0.29.0",
-    "@greenwood/plugin-postcss": "^0.29.0",
-    "@greenwood/plugin-renderer-puppeteer": "^0.29.0",
+    "@greenwood/cli": "^0.30.0-alpha.7",
+    "@greenwood/plugin-google-analytics": "^0.30.0-alpha.7",
+    "@greenwood/plugin-import-raw": "^0.30.0-alpha.7",
+    "@greenwood/plugin-postcss": "^0.30.0-alpha.7",
+    "@greenwood/plugin-renderer-puppeteer": "^0.30.0-alpha.7",
     "eslint": "^8.4.0",
     "postcss-nested": "^4.1.2",
     "puppeteer": "^10.2.0",
